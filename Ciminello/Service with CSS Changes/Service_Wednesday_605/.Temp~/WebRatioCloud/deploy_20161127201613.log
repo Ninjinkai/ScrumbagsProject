@@ -1,0 +1,58 @@
+[2016-11-27 20:16:13] Uploading application on server [52.211.94.100]
+[2016-11-27 20:16:13] Computing changes...
+[2016-11-27 20:16:15] Found 50 file(s) changed
+[2016-11-27 20:16:15] --------------------------------------------
+[2016-11-27 20:16:15] UPDATE                  /WEB-INF/descr/ln16.descr
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/ln10.descr
+[2016-11-27 20:16:15] UPDATE                  /WEB-INF/descr/page6.descr
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/page9.descr
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/ln25.descr
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/ln24.descr
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/kln11.descr
+[2016-11-27 20:16:15] ADD                     /page9.jsp
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/page10.link.descr
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/ln23.descr
+[2016-11-27 20:16:15] UPDATE                  /WEB-INF/descr/ln15.descr
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/dlu2.descr
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/inn2.descr
+[2016-11-27 20:16:15] UPDATE                  /WEB-INF/descr/ln9.descr
+[2016-11-27 20:16:15] REMOTE_ADD              /WEB-INF/descr/oln5.descr
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/enu4.descr
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/seu3.descr
+[2016-11-27 20:16:15] UPDATE                  /WEB-INF/descr/seu2.descr
+[2016-11-27 20:16:15] UPDATE                  /page6.jsp
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/oln15.descr
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/oln8.descr
+[2016-11-27 20:16:15] UPDATE                  /WEB-INF/descr/enu3.descr
+[2016-11-27 20:16:15] UPDATE          RESTART /WEB-INF/conf/struts-config.xml
+[2016-11-27 20:16:15] UPDATE                  /WEB-INF/descr/ln19.descr
+[2016-11-27 20:16:15] UPDATE                  /WEB-INF/descr/_model.descr
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/oln14.descr
+[2016-11-27 20:16:15] UPDATE                  /WEB-INF/descr/seu1.descr
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/ln21.descr
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/ln20.descr
+[2016-11-27 20:16:15] UPDATE                  /WEB-INF/descr/inn1.descr
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/kln10.descr
+[2016-11-27 20:16:15] UPDATE                  /WEB-INF/descr/page7.descr
+[2016-11-27 20:16:15] UPDATE                  /page3.jsp
+[2016-11-27 20:16:15] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-11-27 20:16:15] UPDATE                  /WEB-INF/descr/ln14.descr
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/kln13.descr
+[2016-11-27 20:16:15] UPDATE                  /WEB-INF/descr/mfu2.descr
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/seu4.descr
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/page10.descr
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/inu2.descr
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/mfu3.descr
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/cru3.descr
+[2016-11-27 20:16:15] UPDATE                  /WEB-INF/descr/ln17.descr
+[2016-11-27 20:16:15] ADD                     /page10.jsp
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/ln11.descr
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/ln22.descr
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/oln12.descr
+[2016-11-27 20:16:15] ADD                     /WEB-INF/descr/kln9.descr
+[2016-11-27 20:16:15] UPDATE                  /page7.jsp
+[2016-11-27 20:16:15] DELETE                  /WEB-INF/descr/oln3.descr
+[2016-11-27 20:16:15] --------------------------------------------
+[2016-11-27 20:16:15] Stopping application server
+[2016-11-27 20:16:26] Uploading changes (501.1 KB)
+[2016-11-27 20:16:33] Starting application server

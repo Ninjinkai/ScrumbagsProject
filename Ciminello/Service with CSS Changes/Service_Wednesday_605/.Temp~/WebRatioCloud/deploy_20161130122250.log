@@ -1,0 +1,12 @@
+[2016-11-30 12:22:50] Uploading application on server [52.210.230.236]
+[2016-11-30 12:22:50] Computing changes...
+[2016-11-30 12:22:52] Found 4 file(s) changed
+[2016-11-30 12:22:52] --------------------------------------------
+[2016-11-30 12:22:52] REMOTE_ADD              /MetroStyle/img/logo_old.png
+[2016-11-30 12:22:52] UPDATE                  /MetroStyle/img/logo.png
+[2016-11-30 12:22:52] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-11-30 12:22:52] DELETE                  /upload/ent8/1/IMG_0746.JPG
+[2016-11-30 12:22:52] --------------------------------------------
+[2016-11-30 12:22:52] Stopping application server
+[2016-11-30 12:23:04] Uploading changes (365.1 KB)
+[2016-11-30 12:23:11] Starting application server

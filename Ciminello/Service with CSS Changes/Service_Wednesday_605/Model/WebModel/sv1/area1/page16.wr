@@ -1,0 +1,96 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="0" gr:y="0" id="sv1#area1#page16" name="Create Service Request">
+  <ContentUnits>
+    <EntryUnit gr:x="0" gr:y="0" id="sv1#area1#page16#enu10" name="Create Service Request" linkOrder="sv1#area1#page16#enu10#ln39" entity="pkg1#ent8" fieldOrder="sv1#area1#page16#enu10#fld9 sv1#area1#page16#enu10#fld10 sv1#area1#page16#enu10#fld11">
+      <Link id="sv1#area1#page16#enu10#ln39" name="Submit" to="sv1#area1#cru6" type="normal" validate="true">
+        <LinkParameter id="sv1#area1#page16#enu10#ln39#par65" name="Description_description" source="sv1#area1#page16#enu10#fld10" target="sv1#area1#cru6.pkg1#ent8#att40"/>
+        <LinkParameter id="sv1#area1#page16#enu10#ln39#par66" name="Location_location" source="sv1#area1#page16#enu10#fld9" target="sv1#area1#cru6.pkg1#ent8#att41"/>
+        <LinkParameter id="sv1#area1#page16#enu10#ln39#par67" name="Photo_photo" source="sv1#area1#page16#enu10#fld11" target="sv1#area1#cru6.pkg1#ent8#att11"/>
+        <LinkParameter id="sv1#area1#page16#enu10#ln39#par3" name="Status_Status" target="sv1#area1#cru6.pkg1#ent8#att1" sourceValue="Submitted"/>
+        <LinkParameter id="sv1#area1#page16#enu10#ln39#par129" name="timestamp_Time_added" source="sv1#area1#page16#enu10#fld13" target="sv1#area1#cru6.pkg1#ent8#att10"/>
+        <LinkParameter id="sv1#area1#page16#enu10#ln39#par11" name="Key [oid]_oid" source="key.pkg1#ent8#att38" target="sv1#area1#cru6.pkg1#ent8#att38"/>
+        <LinkParameter id="sv1#area1#page16#enu10#ln39#par20" name="Created By_User.oid(ServiceRequestToUser)" source="sv1#area1#page16#enu10#fld1" target="sv1#area1#cru6.rel1#role2.userOID"/>
+      </Link>
+      <Field id="sv1#area1#page16#enu10#fld9" name="Location" type="string" modifiable="true" attribute="pkg1#ent8#att41"/>
+      <Field id="sv1#area1#page16#enu10#fld10" name="Description" type="text" modifiable="true" contentType="text/html" attribute="pkg1#ent8#att40"/>
+      <Field id="sv1#area1#page16#enu10#fld11" name="Photo" type="blob" modifiable="true" contentType="image" attribute="pkg1#ent8#att11"/>
+      <Field id="sv1#area1#page16#enu10#fld13" name="Time_added" type="timestamp" attribute="pkg1#ent8#att10" hidden="true" preloaded="true"/>
+      <Field id="sv1#area1#page16#enu10#fld17" name="Status" type="string" attribute="pkg1#ent8#att1" hidden="true" preloaded="true"/>
+      <Field id="sv1#area1#page16#enu10#fld1" name="Created By" type="string" preloaded="true" hidden="true"/>
+    </EntryUnit>
+    <TimeUnit gr:x="205" gr:y="0" id="sv1#area1#page16#tmu2" name="Get Current Time">
+      <Link id="sv1#area1#page16#tmu2#ln8" name="Flow8" to="sv1#area1#page16#enu10" type="transport" validate="true">
+        <LinkParameter id="sv1#area1#page16#tmu2#ln8#par14" name="Current/Input Timestamp_Time_added" source="currentTimestamp" target="sv1#area1#page16#enu10#fld13_slot"/>
+      </Link>
+    </TimeUnit>
+    <GetUnit gr:x="225" gr:y="70" id="sv1#area1#page16#gtu4" name="Get Current User" contextParameters="UserCtxParam">
+      <Link id="sv1#area1#page16#gtu4#ln21" name="Flow21" to="sv1#area1#page16#enu10" type="transport" validate="true">
+        <LinkParameter id="sv1#area1#page16#gtu4#ln21#par25" name="UserCtxParam.oid_Created By" source="sv1#area1#page16#gtu4.UserCtxParam" target="sv1#area1#page16#enu10#fld1_slot"/>
+      </Link>
+    </GetUnit>
+  </ContentUnits>
+  <layout:Grid>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area1#page16#enu10">
+          <layout:Link link="sv1#area1#page16#enu10#ln39"/>
+          <layout:Field field="sv1#area1#page16#enu10#fld9"/>
+          <layout:Field field="sv1#area1#page16#enu10#fld10"/>
+          <layout:Field field="sv1#area1#page16#enu10#fld11"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

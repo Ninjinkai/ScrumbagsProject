@@ -1,0 +1,27 @@
+[2016-11-29 10:02:06] Uploading application on server [52.213.97.38]
+[2016-11-29 10:02:06] Computing changes...
+[2016-11-29 10:02:08] Found 19 file(s) changed
+[2016-11-29 10:02:08] --------------------------------------------
+[2016-11-29 10:02:08] ADD                     /WEB-INF/descr/ln16.descr
+[2016-11-29 10:02:08] UPDATE                  /WEB-INF/descr/page6.descr
+[2016-11-29 10:02:08] REMOTE_ADD              /WEB-INF/descr/ln18.descr
+[2016-11-29 10:02:08] REMOTE_ADD              /WEB-INF/descr/ln15.descr
+[2016-11-29 10:02:08] UPDATE                  /WEB-INF/descr/pwu6.descr
+[2016-11-29 10:02:08] UPDATE                  /WEB-INF/descr/enu3.descr
+[2016-11-29 10:02:08] UPDATE                  /WEB-INF/descr/oln34.descr
+[2016-11-29 10:02:08] REMOTE_ADD              /WEB-INF/descr/ln19.descr
+[2016-11-29 10:02:08] UPDATE          RESTART /WEB-INF/conf/struts-config.xml
+[2016-11-29 10:02:08] UPDATE                  /WEB-INF/descr/page7.descr
+[2016-11-29 10:02:08] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-11-29 10:02:08] UPDATE                  /WEB-INF/descr/dlu4.descr
+[2016-11-29 10:02:08] REMOTE_ADD              /WEB-INF/descr/ln17.descr
+[2016-11-29 10:02:08] UPDATE                  /page7.jsp
+[2016-11-29 10:02:08] DELETE                  /WEB-INF/descr/ln10.descr
+[2016-11-29 10:02:08] DELETE                  /WEB-INF/descr/ln9.descr
+[2016-11-29 10:02:08] DELETE                  /WEB-INF/descr/ln14.descr
+[2016-11-29 10:02:08] DELETE                  /WEB-INF/descr/ln13.descr
+[2016-11-29 10:02:08] DELETE                  /WEB-INF/descr/ln11.descr
+[2016-11-29 10:02:08] --------------------------------------------
+[2016-11-29 10:02:08] Stopping application server
+[2016-11-29 10:02:18] Uploading changes (395.7 KB)
+[2016-11-29 10:02:21] Starting application server

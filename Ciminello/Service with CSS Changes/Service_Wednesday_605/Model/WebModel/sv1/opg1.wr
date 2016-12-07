@@ -1,0 +1,21 @@
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv1#opg1" name="Create User Profile and Log In" transaction="true" gr:x="405" gr:y="-10">
+  <OperationUnits>
+    <CreateUnit id="sv1#opg1#cru1" name="Save Customer" gr:x="0" gr:y="0" entity="User">
+      <OKLink id="sv1#opg1#cru1#oln6" name="Link2" to="sv1#opg1#mlu1">
+        <LinkParameter id="sv1#opg1#cru1#oln6#par4" name="EMail" source="emailArray" target="sv1#opg1#mlu1.to"/>
+      </OKLink>
+      <Link id="sv1#opg1#cru1#ln1" name="Link3" to="sv1#opg1#lgu1" type="transport" validate="true">
+        <LinkParameter id="sv1#opg1#cru1#ln1#par5" name="Username" source="userNameArray" target="sv1#opg1#lgu1.username"/>
+        <LinkParameter id="sv1#opg1#cru1#ln1#par6" name="Password" source="passwordArray" target="sv1#opg1#lgu1.password"/>
+      </Link>
+    </CreateUnit>
+    <MailUnit id="sv1#opg1#mlu1" name="Send ConfirmationEmail" gr:x="210" gr:y="10" format="html" smtpServer="smtp1" template="mailTemplate/confirmRegistrationEmail.xml.template">
+      <OKLink id="sv1#opg1#mlu1#oln7" name="OKLink38" to="sv1#opg1#lgu1"/>
+      <SubjectTemplate xml:space="preserve">Welcome to Service!</SubjectTemplate>
+      <KOLink id="sv1#opg1#mlu1#kln1" name="KOLink4" to="sv1#opg1#lgu1" gr:bendpoints="-1,85,179,0"/>
+    </MailUnit>
+    <LoginUnit id="sv1#opg1#lgu1" name="Login" gr:x="20" gr:y="140">
+      <OKLink id="sv1#opg1#lgu1#oln10" name="OKFlow10" to="sv1#area6#page14" automaticCoupling="true"/>
+    </LoginUnit>
+  </OperationUnits>
+</OperationGroup>

@@ -1,0 +1,8 @@
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="-50" gr:y="-485" id="sv1#area1" name="Create Service Request" landmark="true" defaultPage="sv1#area1#page16" protected="true">
+  <OperationUnits>
+    <CreateUnit gr:x="10" gr:y="235" id="sv1#area1#cru6" name="Create" entity="pkg1#ent8">
+      <KOLink id="sv1#area1#cru6#kln8" name="KOFlow8" to="sv1#area1#page17" automaticCoupling="true"/>
+      <OKLink id="sv1#area1#cru6#oln4" name="OKFlow4" to="sv1#area6#page14" automaticCoupling="true"/>
+    </CreateUnit>
+  </OperationUnits>
+</Area>

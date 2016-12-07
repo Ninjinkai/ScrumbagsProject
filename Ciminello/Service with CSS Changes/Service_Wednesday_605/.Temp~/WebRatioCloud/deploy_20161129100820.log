@@ -1,0 +1,13 @@
+[2016-11-29 10:08:20] Uploading application on server [52.213.97.38]
+[2016-11-29 10:08:20] Computing changes...
+[2016-11-29 10:08:21] Found 5 file(s) changed
+[2016-11-29 10:08:21] --------------------------------------------
+[2016-11-29 10:08:21] REMOTE_UPDATE           /WEB-INF/descr/ln16.descr
+[2016-11-29 10:08:21] UPDATE                  /WEB-INF/descr/pwu6.descr
+[2016-11-29 10:08:21] UPDATE                  /WEB-INF/descr/page7.descr
+[2016-11-29 10:08:21] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-11-29 10:08:21] UPDATE                  /page7.jsp
+[2016-11-29 10:08:21] --------------------------------------------
+[2016-11-29 10:08:21] Stopping application server
+[2016-11-29 10:08:32] Uploading changes (381.7 KB)
+[2016-11-29 10:08:35] Starting application server

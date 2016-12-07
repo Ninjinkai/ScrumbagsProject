@@ -1,0 +1,32 @@
+[2016-11-30 11:29:28] Uploading application on server [52.210.230.236]
+[2016-11-30 11:29:28] Computing changes...
+[2016-11-30 11:29:31] Found 24 file(s) changed
+[2016-11-30 11:29:31] --------------------------------------------
+[2016-11-30 11:29:31] UPDATE                  /WEB-INF/classes/com/webratio/webapp/serviceRequest/ServiceRequest.java
+[2016-11-30 11:29:31] UPDATE                  /WEB-INF/descr/page16.descr
+[2016-11-30 11:29:31] UPDATE                  /WEB-INF/classes/com/webratio/webapp/serviceRequest/ServiceRequest.class
+[2016-11-30 11:29:31] UPDATE                  /WEB-INF/descr/mfu1.descr
+[2016-11-30 11:29:31] UPDATE                  /WEB-INF/descr/pwu3.descr
+[2016-11-30 11:29:31] ADD                     /WEB-INF/descr/ln9.descr
+[2016-11-30 11:29:31] ADD                     /WEB-INF/descr/pwu1att10.descr
+[2016-11-30 11:29:31] UPDATE                  /WEB-INF/descr/ln39.descr
+[2016-11-30 11:29:31] REMOTE_UPDATE   RESTART /WEB-INF/conf/struts-config.xml
+[2016-11-30 11:29:31] REMOTE_UPDATE           /WEB-INF/descr/_model.descr
+[2016-11-30 11:29:31] ADD                     /WEB-INF/descr/pwu1att1.descr
+[2016-11-30 11:29:31] REMOTE_UPDATE           /page16.jsp
+[2016-11-30 11:29:31] UPDATE                  /page3.jsp
+[2016-11-30 11:29:31] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-11-30 11:29:31] UPDATE                  /WEB-INF/descr/cru6.descr
+[2016-11-30 11:29:31] REMOTE_ADD              /WEB-INF/descr/gtu1.descr
+[2016-11-30 11:29:31] UPDATE                  /WEB-INF/descr/pwu1.descr
+[2016-11-30 11:29:31] UPDATE                  /page14.jsp
+[2016-11-30 11:29:31] UPDATE                  /WEB-INF/descr/enu10.descr
+[2016-11-30 11:29:31] UPDATE                  /WEB-INF/descr/page3.descr
+[2016-11-30 11:29:31] UPDATE          RESTART /WEB-INF/classes/datamodel.xml
+[2016-11-30 11:29:31] UPDATE                  /WEB-INF/classes/com/webratio/webapp/serviceRequest/ServiceRequest.hbm.xml
+[2016-11-30 11:29:31] DELETE                  /upload/ent8/1/IMG_0745.JPG
+[2016-11-30 11:29:31] DELETE                  /upload/ent8/1/chair.jpg
+[2016-11-30 11:29:31] --------------------------------------------
+[2016-11-30 11:29:31] Stopping application server
+[2016-11-30 11:29:42] Uploading changes (431.7 KB)
+[2016-11-30 11:29:45] Starting application server

@@ -1,0 +1,56 @@
+[2016-11-26 21:03:16] Uploading application on server [52.51.141.157]
+[2016-11-26 21:03:16] Computing changes...
+[2016-11-26 21:03:19] Found 48 file(s) changed
+[2016-11-26 21:03:19] --------------------------------------------
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/derby/ServiceDB/seg0/c7c0.dat
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/classes/com/webratio/webapp/serviceRequest/ServiceRequest.java
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/descr/seu7.descr
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/descr/page1.descr
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/descr/page16.descr
+[2016-11-26 21:03:19] UPDATE                  /page4.jsp
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/classes/com/webratio/webapp/serviceRequest/ServiceRequest.class
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/descr/ln43.descr
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/descr/mfu1.descr
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/descr/pwu3.descr
+[2016-11-26 21:03:19] UPDATE                  /page3_ajax.jsp
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/derby/ServiceDB/seg0/cb1.dat
+[2016-11-26 21:03:19] ADD                     /page5.jsp
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/descr/mailTemplate/confirmRegistrationEmail.xml.template
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/descr/pwu2.descr
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/derby/ServiceDB/log/log.ctrl
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/derby/ServiceDB/seg0/c7d1.dat
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/derby/ServiceDB/seg0/c7f1.dat
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/derby/ServiceDB/seg0/ca1.dat
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/derby/ServiceDB/seg0/c851.dat
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/descr/mlu1.descr
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/descr/enu12.descr
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/derby/ServiceDB/db.lck
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/descr/ln39.descr
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/derby/ServiceDB/seg0/c90.dat
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/derby/ServiceDB/log/logmirror.ctrl
+[2016-11-26 21:03:19] UPDATE          RESTART /WEB-INF/conf/struts-config.xml
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/descr/_model.descr
+[2016-11-26 21:03:19] ADD                     /WEB-INF/descr/page5.descr
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/descr/dlu5.descr
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/descr/ln45.descr
+[2016-11-26 21:03:19] UPDATE                  /page16.jsp
+[2016-11-26 21:03:19] UPDATE                  /page3.jsp
+[2016-11-26 21:03:19] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/descr/cru6.descr
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/descr/kln2.descr
+[2016-11-26 21:03:19] ADD                     /WEB-INF/descr/mssu3.descr
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/descr/pwu1.descr
+[2016-11-26 21:03:19] UPDATE                  /page14.jsp
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/descr/enu10.descr
+[2016-11-26 21:03:19] UPDATE                  /page2.jsp
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/derby/ServiceDB/seg0/c7e0.dat
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/derby/ServiceDB/log/log1.dat
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/descr/page3.descr
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/descr/ln42.descr
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/descr/opu4.descr
+[2016-11-26 21:03:19] UPDATE          RESTART /WEB-INF/classes/datamodel.xml
+[2016-11-26 21:03:19] UPDATE                  /WEB-INF/classes/com/webratio/webapp/serviceRequest/ServiceRequest.hbm.xml
+[2016-11-26 21:03:19] --------------------------------------------
+[2016-11-26 21:03:19] Stopping application server
+[2016-11-26 21:03:29] Uploading changes (1.9 MB)
+[2016-11-26 21:03:38] Starting application server

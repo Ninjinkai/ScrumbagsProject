@@ -1,0 +1,11 @@
+[2016-11-29 11:33:30] Uploading application on server [52.213.97.38]
+[2016-11-29 11:33:30] Computing changes...
+[2016-11-29 11:33:32] Found 3 file(s) changed
+[2016-11-29 11:33:32] --------------------------------------------
+[2016-11-29 11:33:32] UPDATE                  /WEB-INF/descr/enu12.descr
+[2016-11-29 11:33:32] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-11-29 11:33:32] DELETE                  /upload/ent8/1/pipe.jpg
+[2016-11-29 11:33:32] --------------------------------------------
+[2016-11-29 11:33:32] Stopping application server
+[2016-11-29 11:33:43] Uploading changes (363.7 KB)
+[2016-11-29 11:33:49] Starting application server

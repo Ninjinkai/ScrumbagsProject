@@ -1,0 +1,16 @@
+[2016-12-01 12:14:34] Uploading application on server [52.48.126.208]
+[2016-12-01 12:14:34] Computing changes...
+[2016-12-01 12:14:36] Found 8 file(s) changed
+[2016-12-01 12:14:36] --------------------------------------------
+[2016-12-01 12:14:36] ADD                     /WEB-INF/descr/pwu5att41.descr
+[2016-12-01 12:14:36] ADD                     /WEB-INF/descr/pwu5.descr
+[2016-12-01 12:14:36] UPDATE          RESTART /WEB-INF/conf/struts-config.xml
+[2016-12-01 12:14:36] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-12-01 12:14:36] UPDATE                  /WEB-INF/descr/page10.descr
+[2016-12-01 12:14:36] UPDATE                  /page10.jsp
+[2016-12-01 12:14:36] UPDATE                  /WEB-INF/descr/ln11.descr
+[2016-12-01 12:14:36] UPDATE                  /WEB-INF/descr/dlu1.descr
+[2016-12-01 12:14:36] --------------------------------------------
+[2016-12-01 12:14:36] Stopping application server
+[2016-12-01 12:14:47] Uploading changes (388.9 KB)
+[2016-12-01 12:14:54] Starting application server

@@ -1,0 +1,16 @@
+[2016-11-30 12:59:35] Uploading application on server [52.210.230.236]
+[2016-11-30 12:59:35] Computing changes...
+[2016-11-30 12:59:37] Found 8 file(s) changed
+[2016-11-30 12:59:37] --------------------------------------------
+[2016-11-30 12:59:37] UPDATE                  /WEB-INF/descr/page16.descr
+[2016-11-30 12:59:37] UPDATE                  /WEB-INF/descr/ln8.descr
+[2016-11-30 12:59:37] UPDATE                  /WEB-INF/descr/ln39.descr
+[2016-11-30 12:59:37] UPDATE          RESTART /WEB-INF/conf/struts-config.xml
+[2016-11-30 12:59:37] UPDATE                  /page16.jsp
+[2016-11-30 12:59:37] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-11-30 12:59:37] UPDATE                  /WEB-INF/descr/cru6.descr
+[2016-11-30 12:59:37] UPDATE                  /WEB-INF/descr/enu10.descr
+[2016-11-30 12:59:37] --------------------------------------------
+[2016-11-30 12:59:37] Stopping application server
+[2016-11-30 12:59:48] Uploading changes (393.1 KB)
+[2016-11-30 12:59:52] Starting application server

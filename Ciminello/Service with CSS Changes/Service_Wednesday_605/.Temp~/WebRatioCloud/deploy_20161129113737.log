@@ -1,0 +1,11 @@
+[2016-11-29 11:37:37] Uploading application on server [52.213.97.38]
+[2016-11-29 11:37:37] Computing changes...
+[2016-11-29 11:37:39] Found 3 file(s) changed
+[2016-11-29 11:37:39] --------------------------------------------
+[2016-11-29 11:37:39] UPDATE                  /WEB-INF/descr/enu12.descr
+[2016-11-29 11:37:39] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-11-29 11:37:39] DELETE                  /upload/ent8/1/chair.jpg
+[2016-11-29 11:37:39] --------------------------------------------
+[2016-11-29 11:37:39] Stopping application server
+[2016-11-29 11:37:49] Uploading changes (363.5 KB)
+[2016-11-29 11:37:57] Starting application server

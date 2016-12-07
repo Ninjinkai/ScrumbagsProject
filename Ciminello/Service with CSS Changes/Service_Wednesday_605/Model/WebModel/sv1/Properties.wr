@@ -1,0 +1,14 @@
+<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1" name="User" landmarks="sv1#area6 sv1#area1 sv1#area10 sv1#area5" protected="false" homePage="sv1#area6#page14" layout:style="MetroStyle">
+  <OperationUnits>
+    <LogoutUnit id="sv1#lou2" name="Logout" gr:x="95" gr:y="0" siteView="sv1"/>
+    <LoginUnit id="sv1#lgu3" name="Login" gr:x="125" gr:y="290">
+      <KOLink id="sv1#lgu3#kln2" name="KOLink6" to="sv1#page5"/>
+    </LoginUnit>
+    <DeleteUnit id="sv1#dlu1" name="Remove Service Request" gr:x="10" gr:y="430" entity="pkg1#ent8">
+      <Selector id="sv1#dlu1#su1" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#dlu1#su1#kcond1" name="Cart Item Key" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv1#dlu1#oln8" name="OKFlow8" to="sv1#page10" automaticCoupling="true"/>
+    </DeleteUnit>
+  </OperationUnits>
+</SiteView>

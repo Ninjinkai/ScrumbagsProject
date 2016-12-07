@@ -1,0 +1,12 @@
+[2016-11-26 16:43:41] Uploading application on server [52.213.220.88]
+[2016-11-26 16:43:41] Computing changes...
+[2016-11-26 16:43:43] Found 4 file(s) changed
+[2016-11-26 16:43:43] --------------------------------------------
+[2016-11-26 16:43:43] UPDATE                  /WEB-INF/descr/page16.descr
+[2016-11-26 16:43:43] UPDATE                  /WEB-INF/descr/ln45.descr
+[2016-11-26 16:43:43] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-11-26 16:43:43] UPDATE                  /WEB-INF/descr/cru6.descr
+[2016-11-26 16:43:43] --------------------------------------------
+[2016-11-26 16:43:43] Stopping application server
+[2016-11-26 16:43:54] Uploading changes (366.9 KB)
+[2016-11-26 16:43:58] Starting application server

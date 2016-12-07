@@ -1,0 +1,19 @@
+<OperationModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="115" gr:y="95" id="mov4#opm4" name="Delete user">
+  <OperationUnits>
+    <KOCollectorUnit id="mov4#opm4#kocu5" name="KO Port2" gr:x="663" gr:y="236"/>
+    <OKCollectorUnit id="mov4#opm4#okcu5" name="OK Port2" gr:x="663" gr:y="111"/>
+    <InputCollectorUnit id="mov4#opm4#icu6" gr:x="108" gr:y="161">
+      <OKLink id="mov4#opm4#icu6#oln34" name="OKFlow21" to="mov4#opm4#dlu4">
+        <LinkParameter id="mov4#opm4#icu6#oln34#par63" name="oidUser_KeyCondition10 [oid]" source="mov4#opm4#icu6#icp10" target="mov4#opm4#dlu4#su16#kcond15.userOID"/>
+      </OKLink>
+      <InputCollectorParameter id="mov4#opm4#icu6#icp10" name="oidUser"/>
+    </InputCollectorUnit>
+    <DeleteUnit id="mov4#opm4#dlu4" name="Delete user" gr:x="458" gr:y="151" entity="User">
+      <Selector id="mov4#opm4#dlu4#su16" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov4#opm4#dlu4#su16#kcond15" name="KeyCondition10" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="mov4#opm4#dlu4#oln35" name="OKFlow22" to="mov4#opm4#okcu5" automaticCoupling="true"/>
+      <KOLink id="mov4#opm4#dlu4#kln28" name="KOFlow18" to="mov4#opm4#kocu5" automaticCoupling="true"/>
+    </DeleteUnit>
+  </OperationUnits>
+</OperationModule>

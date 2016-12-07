@@ -1,0 +1,66 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#area10#page4" name="Search" protected="false" gr:x="0" gr:y="95">
+  <ContentUnits>
+    <PowerIndexUnit id="sv1#area10#page4#pwu2" name="Matching Requests" customDescriptor="false" gr:x="0" gr:y="130" sortable="true" checkable="false" useCountQuery="false" distinct="false" blockFactor="10" blockWindow="1" entity="pkg1#ent8" displayAttributes="pkg1#ent8#att41 pkg1#ent8#att40 pkg1#ent8#att11 pkg1#ent8#att1">
+      <VRules/>
+      <SortAttribute attribute="pkg1#ent8#att10" order="descending"/>
+      <Selector id="sv1#area10#page4#pwu2#su2" defaultPolicy="fill" booleanOperator="and">
+        <AttributesCondition id="sv1#area10#page4#pwu2#su2#acond2" name="Match" predicate="contains" booleanOperator="or" implied="true" attributes="pkg1#ent8#att41 pkg1#ent8#att40" ignoreCase="true"/>
+      </Selector>
+    </PowerIndexUnit>
+    <EntryUnit id="sv1#area10#page4#enu13" name="Search" linkOrder="sv1#area10#page4#enu13#ln40 sv1#area10#page4#enu13#ln28" gr:x="20" gr:y="0" entity="pkg1#ent8" fieldOrder="sv1#area10#page4#enu13#fld31">
+      <Link id="sv1#area10#page4#enu13#ln40" name="Search" to="sv1#area10#page4#pwu2" type="normal" validate="true">
+        <LinkParameter id="sv1#area10#page4#enu13#ln40#par1" name="Search_Match" source="sv1#area10#page4#enu13#fld31" target="sv1#area10#page4#pwu2#su2#acond2"/>
+      </Link>
+      <Link id="sv1#area10#page4#enu13#ln28" name="Reset" to="sv1#area10#opu5" type="normal" validate="true"/>
+      <Field id="sv1#area10#page4#enu13#fld31" name="Search" type="string" modifiable="true" attribute="pkg1#ent8#att41"/>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area10#page4#enu13">
+          <layout:Link link="sv1#area10#page4#enu13#ln40"/>
+          <layout:Link link="sv1#area10#page4#enu13#ln28"/>
+          <layout:Field field="sv1#area10#page4#enu13#fld31"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area10#page4#pwu2">
+          <layout:Link link="sv1#area10#page4#pwu2First"/>
+          <layout:Link link="sv1#area10#page4#pwu2Previous"/>
+          <layout:Link link="sv1#area10#page4#pwu2Block"/>
+          <layout:Link link="sv1#area10#page4#pwu2Next"/>
+          <layout:Link link="sv1#area10#page4#pwu2Last"/>
+          <layout:Attribute attribute="pkg1#ent8#att41"/>
+          <layout:Attribute attribute="pkg1#ent8#att40"/>
+          <layout:Attribute attribute="pkg1#ent8#att11"/>
+          <layout:Attribute attribute="pkg1#ent8#att1"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

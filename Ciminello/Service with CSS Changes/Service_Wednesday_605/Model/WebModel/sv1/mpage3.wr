@@ -1,0 +1,46 @@
+<MasterPage xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#mpage3" name="Master Page" gr:x="-255" gr:y="-50">
+  <ContentUnits>
+    <MultiMessageUnit id="sv1#mpage3#mssu4" name="Register" linkOrder="sv1#mpage3#mssu4#ln2 sv1#mpage3#mssu4#ln3" gr:x="195" gr:y="125">
+      <Link id="sv1#mpage3#mssu4#ln2" name="Register" to="sv1#page2" type="normal" validate="false" ajaxEnabled="false" ajaxOpenWindow="true" ajaxWindowUseTitle="true" ajaxWindowTitle="Register" ajaxWindowWidth="600" ajaxWindowHeight="600" ajaxWindowResizable="true" ajaxWindowAutoResizing="false" ajaxWindowClosable="true" ajaxWindowModal="true"/>
+      <Link id="sv1#mpage3#mssu4#ln3" name="Login" to="sv1#page1#enu1" type="normal" validate="true" ajaxEnabled="false" ajaxOpenWindow="true" ajaxWindowUseTitle="true" ajaxWindowTitle="Login" ajaxWindowWidth="350" ajaxWindowHeight="300" ajaxWindowClosable="true" ajaxWindowModal="true"/>
+      <Message xml:space="preserve">Welcome to Service! Login to create a service request.</Message>
+    </MultiMessageUnit>
+    <GetUnit id="sv1#mpage3#gtu2" name="Get Current User" gr:x="0" gr:y="10" contextParameters="UserCtxParam">
+      <Link id="sv1#mpage3#gtu2#ln4" name="Link24" to="sv1#mpage3#dau2" type="transport" automaticCoupling="true" validate="true"/>
+    </GetUnit>
+    <DataUnit id="sv1#mpage3#dau2" name="User" linkOrder="sv1#mpage3#dau2#ln19 sv1#mpage3#dau2#ln5" gr:x="190" gr:y="0" entity="User" displayAttributes="userName">
+      <Selector id="sv1#mpage3#dau2#su3" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#mpage3#dau2#su3#kcond2" name="User" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv1#mpage3#dau2#ln5" name="Logout" to="sv1#lou2" type="normal" validate="true"/>
+      <Link id="sv1#mpage3#dau2#ln19" name="My Service Requests" to="sv1#page10" automaticCoupling="true" type="normal" validate="true"/>
+    </DataUnit>
+  </ContentUnits>
+  <layout:CustomLocation name="Top">
+    <layout:Grid containerType="cell">
+      <layout:Row>
+        <layout:Cell>
+          <layout:Unit unitId="sv1#mpage3#mssu4" layout:unitVisibilityCondition="cexpr4" layout:unitVisibilityConditionNegated="true">
+            <layout:Link link="sv1#mpage3#mssu4#ln2"/>
+            <layout:Link link="sv1#mpage3#mssu4#ln3"/>
+            <layout:LayoutParameter name="message-localized" value="false" type="unit"/>
+          </layout:Unit>
+        </layout:Cell>
+      </layout:Row>
+    </layout:Grid>
+  </layout:CustomLocation>
+  <layout:CustomLocation name="User">
+    <layout:Grid containerType="cell">
+      <layout:Row>
+        <layout:Cell>
+          <layout:Unit unitId="sv1#mpage3#dau2" layout:frameLayout="None" layout:unitLayout="WRDefault/User" layout:unitVisibilityCondition="cexpr4">
+            <layout:LayoutParameter name="link-style" value="normal" type="link"/>
+            <layout:Attribute attribute="userName"/>
+            <layout:Link link="sv1#mpage3#dau2#ln19"/>
+            <layout:Link link="sv1#mpage3#dau2#ln5"/>
+          </layout:Unit>
+        </layout:Cell>
+      </layout:Row>
+    </layout:Grid>
+  </layout:CustomLocation>
+</MasterPage>

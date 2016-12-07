@@ -1,0 +1,48 @@
+[25 Nov 2016 09:51:29] DEBUG Executing SQL script
+[25 Nov 2016 09:51:29] INFO ================================================================================
+[25 Nov 2016 09:51:29] INFO outputPath= '/Applications/WebRatio/WebRatio/WebRatio.app/Contents/MacOS/workspace/Service/.Temp~/SQL.xml'
+[25 Nov 2016 09:51:29] INFO onError= 'abort'
+[25 Nov 2016 09:51:29] INFO statementSeparator= ';'
+[25 Nov 2016 09:51:29] INFO derby.system.home= '/Applications/WebRatio/WebRatio/WebRatio.app/Contents/MacOS/workspace/.metadata/.plugins/com.webratio.commons.db/derby'
+[25 Nov 2016 09:51:29] INFO password= 'F27A6A86'
+[25 Nov 2016 09:51:29] INFO url= 'jdbc:mysql://52.213.178.53:3306/freeapp24'
+[25 Nov 2016 09:51:29] INFO username= 'freeapp24'
+[25 Nov 2016 09:51:29] INFO autoCommit= 'false'
+[25 Nov 2016 09:51:29] INFO outputLogPath= '/Applications/WebRatio/WebRatio/WebRatio.app/Contents/MacOS/workspace/Service/.Temp~/SQL.xml.log'
+[25 Nov 2016 09:51:29] INFO driverClass= 'com.mysql.jdbc.Driver'
+[25 Nov 2016 09:51:29] INFO encoding= 'MacRoman'
+[25 Nov 2016 09:51:29] INFO eventSocketPort= '61013'
+[25 Nov 2016 09:51:29] INFO sqlScript= '/Applications/WebRatio/WebRatio/WebRatio.app/Contents/MacOS/workspace/Service/DBScripts/Freeapp24_161125_083418.sql'
+[25 Nov 2016 09:51:29] INFO ================================================================================
+[25 Nov 2016 09:51:29] INFO Connecting to the Database...
+[25 Nov 2016 09:51:30] INFO Database connection estabilished
+[25 Nov 2016 09:51:30] INFO transaction isolation: 4
+[25 Nov 2016 09:51:31] DEBUG ================================================================================
+[25 Nov 2016 09:51:31] DEBUG Executing SQL script file: /Applications/WebRatio/WebRatio/WebRatio.app/Contents/MacOS/workspace/Service/DBScripts/Freeapp24_161125_083418.sql
+[25 Nov 2016 09:51:31] DEBUG Executing statement:  create table `group` ( `oid`  integer  not null, `group_name`  varchar(255), primary key (`oid`) )
+[25 Nov 2016 09:51:31] ERROR Could not execute statement:  create table `group` ( `oid`  integer  not null, `group_name`  varchar(255), primary key (`oid`) )
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'group' already exists
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3970)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3906)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2677)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2545)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2503)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:839)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:739)
+	at com.webratio.commons.db.utils.DBUtils.execute(DBUtils.java:523)
+	at com.webratio.commons.db.utils.DBUtils.executeScriptFiles(DBUtils.java:442)
+	at com.webratio.commons.db.utils.DBUtils.main(DBUtils.java:257)
+[25 Nov 2016 09:51:31] DEBUG Performing roolback...
+[25 Nov 2016 09:51:31] WARN NOTE: The rollback affects the DDL instructions only if supported by the current database
+[25 Nov 2016 09:51:31] DEBUG Rollback successfully executed
+[25 Nov 2016 09:51:31] ERROR SQL SCRIPT EXECUTION FAILED
+[25 Nov 2016 09:51:31] INFO Database connection closed
+[25 Nov 2016 09:51:31] DEBUG Total time: 2717 milliseconds

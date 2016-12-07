@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DBError statementIndex="0">
+  <ErrorMessage>com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'group' already exists</ErrorMessage>
+  <Comment> Group [Group]</Comment>
+  <Statement> create table `group` ( `oid`  integer  not null, `group_name`  varchar(255), primary key (`oid`) )</Statement>
+  <ErrorMessage>com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'group' already exists</ErrorMessage>
+  <StackTrace>com.webratio.commons.db.DBException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'group' already exists
+	at com.webratio.commons.db.utils.DBUtils.execute(DBUtils.java:546)
+	at com.webratio.commons.db.utils.DBUtils.executeScriptFiles(DBUtils.java:442)
+	at com.webratio.commons.db.utils.DBUtils.main(DBUtils.java:257)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'group' already exists
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3970)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3906)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2677)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2545)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2503)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:839)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:739)
+	at com.webratio.commons.db.utils.DBUtils.execute(DBUtils.java:523)
+	... 2 more
+</StackTrace></DBError>

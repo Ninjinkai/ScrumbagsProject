@@ -1,0 +1,25 @@
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv3#area4" name="Service Requests" landmark="true" gr:x="-45" gr:y="-80" protected="false" defaultPage="sv3#area4#page3">
+  <OperationUnits>
+    <DeleteUnit gr:x="0" gr:y="115" id="sv3#area4#dlu5" name="Delete Service Request" entity="pkg1#ent8">
+      <Selector id="sv3#area4#dlu5#su57" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv3#area4#dlu5#su57#kcond45" name="Service Request" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv3#area4#dlu5#oln56" name="OKLink56" to="sv3#area4#page3#mssu1" gr:bendpoints="-1,-100,-176,0">
+        <LinkParameter id="sv3#area4#dlu5#oln56#par23" name="Message" sourceValue="Delete: Operation completed" target="sv3#area4#page3#mssu1.shownMessages"/>
+      </OKLink>
+      <KOLink id="sv3#area4#dlu5#kln3" name="KOLink3" to="sv3#area4#page3#mssu1">
+        <LinkParameter id="sv3#area4#dlu5#kln3#par24" name="Message" sourceValue="Error: Delete operation not completed" target="sv3#area4#page3#mssu1.shownMessages"/>
+      </KOLink>
+    </DeleteUnit>
+    <NoOpOperationUnit gr:x="620" gr:y="365" id="sv3#area4#opu4" name="Cancel">
+      <OKLink id="sv3#area4#opu4#oln11" name="OKLink11" to="sv3#area4#page3" automaticCoupling="true" gr:bendpoints="-73,-1,252,214"/>
+    </NoOpOperationUnit>
+    <ModifyUnit gr:x="630" gr:y="180" id="sv3#area4#mfu1" name="Update Service Request" entity="pkg1#ent8">
+      <Selector id="sv3#area4#mfu1#su9" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv3#area4#mfu1#su9#kcond6" name="KeyCondition6" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv3#area4#mfu1#oln26" name="OKFlow26" to="sv3#area4#page3#mssu1" automaticCoupling="true"/>
+      <KOLink id="sv3#area4#mfu1#kln12" name="KOFlow12" to="sv3#area4#page3#mssu1" automaticCoupling="true" gr:bendpoints="-224,-73,181,87"/>
+    </ModifyUnit>
+  </OperationUnits>
+</Area>

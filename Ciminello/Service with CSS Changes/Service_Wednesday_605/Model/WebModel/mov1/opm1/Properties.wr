@@ -1,0 +1,41 @@
+<OperationModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="250" gr:y="175" id="mov1#opm1" name="Manage group">
+  <OperationUnits>
+    <InputCollectorUnit id="mov1#opm1#icu1" gr:x="30" gr:y="140">
+      <OKLink id="mov1#opm1#icu1#oln3" name="OKFlow3" to="mov1#opm1#inn3">
+        <LinkParameter id="mov1#opm1#icu1#oln3#par44" name="oidGroup_Input" source="mov1#opm1#icu1#icp4" target="mov1#opm1#inn3.isnotnull"/>
+      </OKLink>
+      <Link id="mov1#opm1#icu1#ln35" name="Flow35" to="mov1#opm1#cru4" type="transport" validate="true" gr:bendpoints="147,-81,-238,-1">
+        <LinkParameter id="mov1#opm1#icu1#ln35#par72" name="groupName_group name" source="mov1#opm1#icu1#icp2" target="mov1#opm1#cru4.groupName"/>
+        <LinkParameter id="mov1#opm1#icu1#ln35#par87" name="defaultModule_Module.oid(Group2DefaultModule)" source="mov1#opm1#icu1#icp1" target="mov1#opm1#cru4.Group2DefaultModule.moduleOID"/>
+        <LinkParameter id="mov1#opm1#icu1#ln35#par90" name="modules_Module.oid(Group2Module)" source="mov1#opm1#icu1#icp3" target="mov1#opm1#cru4.Group2Module.moduleOID"/>
+      </Link>
+      <Link id="mov1#opm1#icu1#ln36" name="Flow36" to="mov1#opm1#mfu4" type="transport" validate="true" gr:bendpoints="145,80,-235,0">
+        <LinkParameter id="mov1#opm1#icu1#ln36#par73" name="groupName_group name" source="mov1#opm1#icu1#icp2" target="mov1#opm1#mfu4.groupName"/>
+        <LinkParameter id="mov1#opm1#icu1#ln36#par75" name="oidGroup_KeyCondition5 [oid]" source="mov1#opm1#icu1#icp4" target="mov1#opm1#mfu4#su6#kcond5.groupOID"/>
+        <LinkParameter id="mov1#opm1#icu1#ln36#par101" name="defaultModule_Module.oid(Group2DefaultModule)" source="mov1#opm1#icu1#icp1" target="mov1#opm1#mfu4.Group2DefaultModule.moduleOID"/>
+        <LinkParameter id="mov1#opm1#icu1#ln36#par102" name="modules_Module.oid(Group2Module)" source="mov1#opm1#icu1#icp3" target="mov1#opm1#mfu4.Group2Module.moduleOID"/>
+      </Link>
+      <InputCollectorParameter id="mov1#opm1#icu1#icp1" name="defaultModule"/>
+      <InputCollectorParameter id="mov1#opm1#icu1#icp2" name="groupName"/>
+      <InputCollectorParameter id="mov1#opm1#icu1#icp3" name="modules"/>
+      <InputCollectorParameter id="mov1#opm1#icu1#icp4" name="oidGroup"/>
+    </InputCollectorUnit>
+    <IsNotNullUnit gr:x="305" gr:y="155" id="mov1#opm1#inn3" name="Group Exists?">
+      <KOLink id="mov1#opm1#inn3#kln14" name="KOFlow14" to="mov1#opm1#cru4" automaticCoupling="true"/>
+      <OKLink id="mov1#opm1#inn3#oln16" name="OKFlow16" to="mov1#opm1#mfu4" automaticCoupling="true"/>
+    </IsNotNullUnit>
+    <ModifyUnit gr:x="465" gr:y="215" id="mov1#opm1#mfu4" name="Modify Group" entity="Group">
+      <Selector id="mov1#opm1#mfu4#su6" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov1#opm1#mfu4#su6#kcond5" name="KeyCondition5" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="mov1#opm1#mfu4#oln17" name="OKFlow17" to="mov1#opm1#okcu1" automaticCoupling="true"/>
+      <KOLink id="mov1#opm1#mfu4#kln16" name="KOFlow16" to="mov1#opm1#kocu1" automaticCoupling="true"/>
+    </ModifyUnit>
+    <CreateUnit gr:x="470" gr:y="60" id="mov1#opm1#cru4" name="Create Group" entity="Group">
+      <OKLink id="mov1#opm1#cru4#oln18" name="OKFlow18" to="mov1#opm1#okcu1" automaticCoupling="true"/>
+      <KOLink id="mov1#opm1#cru4#kln15" name="KOFlow15" to="mov1#opm1#kocu1" automaticCoupling="true"/>
+    </CreateUnit>
+    <OKCollectorUnit gr:x="650" gr:y="60" id="mov1#opm1#okcu1" name="OK Port1"/>
+    <KOCollectorUnit gr:x="650" gr:y="220" id="mov1#opm1#kocu1" name="KO Port1"/>
+  </OperationUnits>
+</OperationModule>

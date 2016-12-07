@@ -1,0 +1,29 @@
+[2016-12-03 13:26:13] Uploading application on server [52.212.49.136]
+[2016-12-03 13:26:13] Computing changes...
+[2016-12-03 13:26:15] Found 21 file(s) changed
+[2016-12-03 13:26:15] --------------------------------------------
+[2016-12-03 13:26:15] UPDATE                  /WEB-INF/descr/mfu1.descr
+[2016-12-03 13:26:15] UPDATE                  /WEB-INF/descr/page6.descr
+[2016-12-03 13:26:15] UPDATE                  /WEB-INF/descr/miu2.descr
+[2016-12-03 13:26:15] UPDATE                  /WEB-INF/descr/page12.descr
+[2016-12-03 13:26:15] UPDATE                  /WEB-INF/descr/miu5.descr
+[2016-12-03 13:26:15] UPDATE                  /page13.jsp
+[2016-12-03 13:26:15] UPDATE                  /page6.jsp
+[2016-12-03 13:26:15] UPDATE                  /WEB-INF/descr/_model.descr
+[2016-12-03 13:26:15] UPDATE                  /WEB-INF/descr/dlu5.descr
+[2016-12-03 13:26:15] UPDATE                  /page12.jsp
+[2016-12-03 13:26:15] UPDATE                  /WEB-INF/descr/mpage1.descr
+[2016-12-03 13:26:15] UPDATE                  /WEB-INF/descr/page7.descr
+[2016-12-03 13:26:15] UPDATE                  /WEB-INF/descr/page13.descr
+[2016-12-03 13:26:15] UPDATE                  /page3.jsp
+[2016-12-03 13:26:15] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-12-03 13:26:15] UPDATE                  /WEB-INF/descr/miu6.descr
+[2016-12-03 13:26:15] UPDATE                  /WEB-INF/descr/miu3.descr
+[2016-12-03 13:26:15] UPDATE                  /WEB-INF/descr/lou1.descr
+[2016-12-03 13:26:15] UPDATE                  /WEB-INF/descr/page3.descr
+[2016-12-03 13:26:15] UPDATE                  /WEB-INF/descr/opu4.descr
+[2016-12-03 13:26:15] UPDATE                  /page7.jsp
+[2016-12-03 13:26:15] --------------------------------------------
+[2016-12-03 13:26:15] Stopping application server
+[2016-12-03 13:26:25] Uploading changes (478.4 KB)
+[2016-12-03 13:26:28] Starting application server

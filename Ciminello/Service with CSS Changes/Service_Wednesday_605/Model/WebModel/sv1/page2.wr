@@ -1,0 +1,92 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#page2" name="Registration" landmark="false" ignoreMasterPage="true" layout:pageLayout="MetroStyle/Empty" gr:x="185" gr:y="60">
+  <ContentUnits>
+    <EntryUnit id="sv1#page2#enu2" name="Registration" linkOrder="sv1#page2#enu2#ln7" gr:x="0" gr:y="0" entity="User" fieldOrder="sv1#page2#enu2#fld8 sv1#page2#enu2#fld6 sv1#page2#enu2#fld7 sv1#page2#enu2#fld12">
+      <Field id="sv1#page2#enu2#fld6" name="Username" type="string" modifiable="true" attribute="userName">
+        <VRules>
+          <MandatoryValidationRule id="sv1#page2#enu2#fld6#mnd3" name="Mandatory Field"/>
+          <CollectionValidationRule id="sv1#page2#enu2#fld6#clc1" name="Validate Unique Field" predicate="notIn" ignoreCase="true" entity="User" attribute="userName"/>
+        </VRules>
+      </Field>
+      <Field id="sv1#page2#enu2#fld7" name="Password" type="password" modifiable="true" attribute="password">
+        <VRules>
+          <MandatoryValidationRule id="sv1#page2#enu2#fld7#mnd4" name="Mandatory Field"/>
+        </VRules>
+      </Field>
+      <Field id="sv1#page2#enu2#fld8" name="Email" type="string" modifiable="true" attribute="email">
+        <VRules>
+          <MandatoryValidationRule id="sv1#page2#enu2#fld8#mnd5" name="Mandatory Field"/>
+          <CollectionValidationRule id="sv1#page2#enu2#fld8#clc2" name="Validate Unique Field" predicate="notIn" entity="User" attribute="email"/>
+          <EMailValidationRule id="sv1#page2#enu2#fld8#email1" name="Validate EMail Field"/>
+        </VRules>
+      </Field>
+      <Field id="sv1#page2#enu2#fld12" name="Confirm Password" type="password" modifiable="true" attribute="password">
+        <VRules>
+          <MandatoryValidationRule id="sv1#page2#enu2#fld12#mnd9" name="Mandatory Field"/>
+          <CompareValidationRule id="sv1#page2#enu2#fld12#cmp1" name="Validate Compare" predicate="eq" valueField="sv1#page2#enu2#fld7"/>
+        </VRules>
+      </Field>
+      <VRules/>
+      <Link id="sv1#page2#enu2#ln7" name="Submit" to="sv1#opg1#cru1" type="normal" validate="true">
+        <LinkParameter id="sv1#page2#enu2#ln7#par9" name="Group Key" target="sv1#opg1#cru1.User2DefaultGroup.groupOID" sourceValue="1"/>
+        <LinkParameter id="sv1#page2#enu2#ln7#par10" name="User Object" source="entityBean" target="sv1#opg1#cru1.entityBeans"/>
+        <LinkParameter id="sv1#page2#enu2#ln7#par119" name="1_Group.oid(User2Group)" sourceValue="1" target="sv1#opg1#cru1.User2Group.groupOID"/>
+      </Link>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#page2#enu2" manualFields="true" manualFieldOrder="sv1#page2#enu2#fld8 sv1#page2#enu2#fld6 sv1#page2#enu2#fld7 sv1#page2#enu2#fld12" manualLinks="true" layout:frameLayout="None">
+          <layout:Field field="sv1#page2#enu2#fld8"/>
+          <layout:Field field="sv1#page2#enu2#fld6"/>
+          <layout:Field field="sv1#page2#enu2#fld7"/>
+          <layout:Field field="sv1#page2#enu2#fld12"/>
+          <layout:LayoutParameter name="error-position" value="right" type="unit"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell/>
+      <layout:Cell colspan="11"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="10"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell colspan="2">
+        <layout:Unit unitId="sv1#page2#enu2" manualFields="true" layout:frameLayout="None">
+          <layout:Link link="sv1#page2#enu2#ln7"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

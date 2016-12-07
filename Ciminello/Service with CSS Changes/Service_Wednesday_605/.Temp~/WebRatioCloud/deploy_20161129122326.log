@@ -1,0 +1,10 @@
+[2016-11-29 12:23:26] Uploading application on server [52.213.97.38]
+[2016-11-29 12:23:26] Computing changes...
+[2016-11-29 12:23:28] Found 2 file(s) changed
+[2016-11-29 12:23:28] --------------------------------------------
+[2016-11-29 12:23:28] UPDATE                  /WEB-INF/descr/mssu2.descr
+[2016-11-29 12:23:28] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-11-29 12:23:28] --------------------------------------------
+[2016-11-29 12:23:28] Stopping application server
+[2016-11-29 12:23:39] Uploading changes (362.2 KB)
+[2016-11-29 12:23:45] Starting application server

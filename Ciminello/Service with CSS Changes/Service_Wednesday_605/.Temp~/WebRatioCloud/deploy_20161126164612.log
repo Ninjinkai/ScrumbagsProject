@@ -1,0 +1,48 @@
+[2016-11-26 16:46:12] Uploading application on server [52.213.220.88]
+[2016-11-26 16:46:12] Computing changes...
+[2016-11-26 16:46:13] Found 40 file(s) changed
+[2016-11-26 16:46:13] --------------------------------------------
+[2016-11-26 16:46:13] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-11-26 16:46:13] DELETE                  /upload/combo_1.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/location.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/small_table_3.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/table_5.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/lamp_1.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/small_lamp_1.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/chair_1.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/table_4.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/table_1.jpg
+[2016-11-26 16:46:13] DELETE                  /WEB-INF/descr/groovy/checkAgeBorderline.groovy
+[2016-11-26 16:46:13] DELETE                  /upload/chair_4.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/chair_2.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/lamp_3.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/small_lamp_2.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/combo_5.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/small_chair_3.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/small_table_5.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/small_chair_4.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/small_table_4.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/table_3.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/lamp_2.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/map.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/small_lamp_5.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/table_2.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/small_table_1.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/lamp_5.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/small_chair_5.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/combo_2.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/chair_5.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/chair_3.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/small_chair_1.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/colors.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/small_lamp_3.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/combo_4.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/small_table_2.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/small_lamp_4.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/combo_3.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/small_chair_2.jpg
+[2016-11-26 16:46:13] DELETE                  /upload/lamp_4.jpg
+[2016-11-26 16:46:13] --------------------------------------------
+[2016-11-26 16:46:13] Stopping application server
+[2016-11-26 16:46:25] Uploading changes (361.9 KB)
+[2016-11-26 16:46:28] Starting application server

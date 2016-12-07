@@ -1,0 +1,14 @@
+[2016-11-29 11:09:44] Uploading application on server [52.213.97.38]
+[2016-11-29 11:09:44] Computing changes...
+[2016-11-29 11:09:46] Found 6 file(s) changed
+[2016-11-29 11:09:46] --------------------------------------------
+[2016-11-29 11:09:46] ADD             RESTART /WEB-INF/classes/db1.hibernate.cfg.xml
+[2016-11-29 11:09:46] UPDATE                  /WEB-INF/descr/_auth.descr
+[2016-11-29 11:09:46] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-11-29 11:09:46] UPDATE          RESTART /WEB-INF/classes/datamodel.xml
+[2016-11-29 11:09:46] UPDATE                  /WEB-INF/descr/_access.descr
+[2016-11-29 11:09:46] DELETE          RESTART /WEB-INF/classes/db2.hibernate.cfg.xml
+[2016-11-29 11:09:46] --------------------------------------------
+[2016-11-29 11:09:46] Stopping application server
+[2016-11-29 11:09:57] Uploading changes (370.6 KB)
+[2016-11-29 11:09:59] Starting application server

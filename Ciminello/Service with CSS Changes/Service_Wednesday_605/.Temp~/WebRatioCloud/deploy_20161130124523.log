@@ -1,0 +1,10 @@
+[2016-11-30 12:45:23] Uploading application on server [52.210.230.236]
+[2016-11-30 12:45:23] Computing changes...
+[2016-11-30 12:45:25] Found 2 file(s) changed
+[2016-11-30 12:45:25] --------------------------------------------
+[2016-11-30 12:45:25] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-11-30 12:45:25] UPDATE                  /WEB-INF/classes/com/webratio/webapp/serviceRequest/ServiceRequest.hbm.xml
+[2016-11-30 12:45:25] --------------------------------------------
+[2016-11-30 12:45:25] Stopping application server
+[2016-11-30 12:45:36] Uploading changes (363.4 KB)
+[2016-11-30 12:45:42] Starting application server

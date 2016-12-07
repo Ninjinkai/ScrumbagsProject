@@ -1,0 +1,26 @@
+[2016-11-30 11:16:18] Uploading application on server [52.210.230.236]
+[2016-11-30 11:16:18] Computing changes...
+[2016-11-30 11:16:20] Found 18 file(s) changed
+[2016-11-30 11:16:20] --------------------------------------------
+[2016-11-30 11:16:20] UPDATE                  /WEB-INF/descr/pwu1Last.descr
+[2016-11-30 11:16:20] UPDATE                  /WEB-INF/descr/page16.descr
+[2016-11-30 11:16:20] UPDATE                  /WEB-INF/descr/pwu1att41.descr
+[2016-11-30 11:16:20] UPDATE                  /WEB-INF/descr/pwu1Previous.descr
+[2016-11-30 11:16:20] ADD                     /WEB-INF/descr/ln8.descr
+[2016-11-30 11:16:20] UPDATE                  /WEB-INF/descr/ln63.descr
+[2016-11-30 11:16:20] UPDATE                  /WEB-INF/descr/pwu1Block.descr
+[2016-11-30 11:16:20] UPDATE                  /WEB-INF/descr/pwu1First.descr
+[2016-11-30 11:16:20] REMOTE_ADD              /WEB-INF/descr/tmu2.descr
+[2016-11-30 11:16:20] UPDATE                  /WEB-INF/descr/dlu5.descr
+[2016-11-30 11:16:20] UPDATE                  /page3.jsp
+[2016-11-30 11:16:20] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-11-30 11:16:20] UPDATE                  /WEB-INF/descr/pwu1Next.descr
+[2016-11-30 11:16:20] REMOTE_UPDATE           /WEB-INF/descr/pwu1.descr
+[2016-11-30 11:16:20] UPDATE                  /WEB-INF/descr/page3.descr
+[2016-11-30 11:16:20] DELETE                  /WEB-INF/descr/ln27.descr
+[2016-11-30 11:16:20] DELETE                  /page3_ajax.jsp
+[2016-11-30 11:16:20] DELETE                  /WEB-INF/descr/tmu1.descr
+[2016-11-30 11:16:20] --------------------------------------------
+[2016-11-30 11:16:20] Stopping application server
+[2016-11-30 11:16:31] Uploading changes (399.6 KB)
+[2016-11-30 11:16:48] Starting application server

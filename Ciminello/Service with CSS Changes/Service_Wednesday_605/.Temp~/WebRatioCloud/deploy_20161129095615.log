@@ -1,0 +1,68 @@
+[2016-11-29 09:56:15] Uploading application on server [52.213.97.38]
+[2016-11-29 09:56:15] Computing changes...
+[2016-11-29 09:56:17] Found 60 file(s) changed
+[2016-11-29 09:56:17] --------------------------------------------
+[2016-11-29 09:56:17] ADD                     /WEB-INF/descr/ln10.descr
+[2016-11-29 09:56:17] ADD                     /WEB-INF/descr/page6.descr
+[2016-11-29 09:56:17] UPDATE                  /WEB-INF/descr/ln54.descr
+[2016-11-29 09:56:17] UPDATE                  /WEB-INF/descr/ln35.descr
+[2016-11-29 09:56:17] ADD                     /WEB-INF/descr/ln9.descr
+[2016-11-29 09:56:17] UPDATE                  /WEB-INF/descr/icu4.descr
+[2016-11-29 09:56:17] ADD                     /WEB-INF/descr/miu5.descr
+[2016-11-29 09:56:17] REMOTE_ADD              /WEB-INF/descr/mssu7.descr
+[2016-11-29 09:56:17] REMOTE_ADD              /WEB-INF/descr/seu2.descr
+[2016-11-29 09:56:17] ADD                     /WEB-INF/descr/ln8.descr
+[2016-11-29 09:56:17] UPDATE                  /page13.jsp
+[2016-11-29 09:56:17] ADD                     /WEB-INF/descr/kln4.descr
+[2016-11-29 09:56:17] ADD                     /WEB-INF/descr/pwu6.descr
+[2016-11-29 09:56:17] ADD                     /page6.jsp
+[2016-11-29 09:56:17] ADD                     /WEB-INF/descr/oln2.descr
+[2016-11-29 09:56:17] ADD                     /WEB-INF/descr/enu3.descr
+[2016-11-29 09:56:17] UPDATE          RESTART /WEB-INF/conf/struts-config.xml
+[2016-11-29 09:56:17] UPDATE                  /WEB-INF/descr/_model.descr
+[2016-11-29 09:56:17] REMOTE_ADD              /WEB-INF/descr/seu1.descr
+[2016-11-29 09:56:17] UPDATE                  /page12.jsp
+[2016-11-29 09:56:17] UPDATE                  /WEB-INF/descr/ln53.descr
+[2016-11-29 09:56:17] UPDATE                  /WEB-INF/descr/cru7.descr
+[2016-11-29 09:56:17] ADD                     /WEB-INF/descr/page7.descr
+[2016-11-29 09:56:17] UPDATE                  /page3.jsp
+[2016-11-29 09:56:17] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-11-29 09:56:17] ADD                     /WEB-INF/descr/ln14.descr
+[2016-11-29 09:56:17] UPDATE                  /WEB-INF/descr/opm3.descr
+[2016-11-29 09:56:17] ADD                     /WEB-INF/descr/kln5.descr
+[2016-11-29 09:56:17] UPDATE                  /WEB-INF/descr/mfu6.descr
+[2016-11-29 09:56:17] ADD                     /WEB-INF/descr/ln13.descr
+[2016-11-29 09:56:17] ADD                     /WEB-INF/descr/miu6.descr
+[2016-11-29 09:56:17] ADD                     /WEB-INF/descr/ln11.descr
+[2016-11-29 09:56:17] UPDATE                  /WEB-INF/descr/cru4.descr
+[2016-11-29 09:56:17] REMOTE_ADD              /WEB-INF/descr/page7.link.descr
+[2016-11-29 09:56:17] ADD                     /WEB-INF/descr/ln12.descr
+[2016-11-29 09:56:17] ADD                     /WEB-INF/descr/oln1.descr
+[2016-11-29 09:56:17] ADD                     /page7.jsp
+[2016-11-29 09:56:17] DELETE                  /WEB-INF/descr/ln46.descr
+[2016-11-29 09:56:17] DELETE                  /WEB-INF/descr/seu9.descr
+[2016-11-29 09:56:17] DELETE                  /WEB-INF/descr/enu6.descr
+[2016-11-29 09:56:17] DELETE                  /page15.jsp
+[2016-11-29 09:56:17] DELETE                  /WEB-INF/descr/pwu5.descr
+[2016-11-29 09:56:17] DELETE                  /WEB-INF/descr/page15.descr
+[2016-11-29 09:56:17] DELETE                  /WEB-INF/descr/page18.link.descr
+[2016-11-29 09:56:17] DELETE                  /WEB-INF/descr/page18.descr
+[2016-11-29 09:56:17] DELETE                  /WEB-INF/descr/oln24.descr
+[2016-11-29 09:56:17] DELETE                  /WEB-INF/descr/seu10.descr
+[2016-11-29 09:56:17] DELETE                  /WEB-INF/descr/ln51.descr
+[2016-11-29 09:56:17] DELETE                  /WEB-INF/descr/miu4.descr
+[2016-11-29 09:56:17] DELETE                  /WEB-INF/descr/ln48.descr
+[2016-11-29 09:56:17] DELETE                  /WEB-INF/descr/ln52.descr
+[2016-11-29 09:56:17] DELETE                  /WEB-INF/descr/kln20.descr
+[2016-11-29 09:56:17] DELETE                  /WEB-INF/descr/ln49.descr
+[2016-11-29 09:56:17] DELETE                  /WEB-INF/descr/ln50.descr
+[2016-11-29 09:56:17] DELETE                  /WEB-INF/descr/oln19.descr
+[2016-11-29 09:56:17] DELETE                  /page18.jsp
+[2016-11-29 09:56:17] DELETE                  /WEB-INF/descr/mssu6.descr
+[2016-11-29 09:56:17] DELETE                  /WEB-INF/descr/ln47.descr
+[2016-11-29 09:56:17] DELETE                  /WEB-INF/descr/miu1.descr
+[2016-11-29 09:56:17] DELETE                  /WEB-INF/descr/kln21.descr
+[2016-11-29 09:56:17] --------------------------------------------
+[2016-11-29 09:56:17] Stopping application server
+[2016-11-29 09:56:28] Uploading changes (478.9 KB)
+[2016-11-29 09:56:29] Starting application server

@@ -1,0 +1,15 @@
+[2016-11-29 10:25:09] Uploading application on server [52.213.97.38]
+[2016-11-29 10:25:09] Computing changes...
+[2016-11-29 10:25:11] Found 7 file(s) changed
+[2016-11-29 10:25:11] --------------------------------------------
+[2016-11-29 10:25:11] UPDATE                  /page3_ajax.jsp
+[2016-11-29 10:25:11] UPDATE                  /WEB-INF/descr/enu4.descr
+[2016-11-29 10:25:11] UPDATE                  /WEB-INF/descr/page7.descr
+[2016-11-29 10:25:11] UPDATE                  /page3.jsp
+[2016-11-29 10:25:11] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-11-29 10:25:11] UPDATE                  /WEB-INF/descr/page3.descr
+[2016-11-29 10:25:11] UPDATE                  /page7.jsp
+[2016-11-29 10:25:11] --------------------------------------------
+[2016-11-29 10:25:11] Stopping application server
+[2016-11-29 10:25:22] Uploading changes (441.1 KB)
+[2016-11-29 10:25:30] Starting application server

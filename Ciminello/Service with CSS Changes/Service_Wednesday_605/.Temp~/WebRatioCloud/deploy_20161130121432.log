@@ -1,0 +1,67 @@
+[2016-11-30 12:14:32] Uploading application on server [52.210.230.236]
+[2016-11-30 12:14:32] Computing changes...
+[2016-11-30 12:14:34] Found 59 file(s) changed
+[2016-11-30 12:14:34] --------------------------------------------
+[2016-11-30 12:14:34] REMOTE_UPDATE           /.StoreMapping
+[2016-11-30 12:14:34] UPDATE                  /page4.jsp
+[2016-11-30 12:14:34] REMOTE_ADD              /MetroStyle/js/bootstrap-filestyle.min.js
+[2016-11-30 12:14:34] REMOTE_ADD              /MetroStyle/css/components.css
+[2016-11-30 12:14:34] UPDATE                  /page5.jsp
+[2016-11-30 12:14:34] REMOTE_ADD              /MetroStyle/fonts/DroidSans-regular.eot
+[2016-11-30 12:14:34] REMOTE_ADD              /MetroStyle/fonts/DroidSans-regular.ttf
+[2016-11-30 12:14:34] REMOTE_ADD              /MetroStyle/fonts/glyphicons-halflings-regular.svg
+[2016-11-30 12:14:34] REMOTE_ADD              /MetroStyle/fonts/glyphicons-halflings-regular.eot
+[2016-11-30 12:14:34] REMOTE_ADD              /MetroStyle/js/app.js
+[2016-11-30 12:14:34] REMOTE_ADD              /MetroStyle/fonts/glyphicons-halflings-regular.woff
+[2016-11-30 12:14:34] REMOTE_ADD              /MetroStyle/js/bootstrap-filestyle.js
+[2016-11-30 12:14:34] UPDATE                  /page13.jsp
+[2016-11-30 12:14:34] UPDATE                  /page6.jsp
+[2016-11-30 12:14:34] ADD                     /MetroStyle/img/logo.png
+[2016-11-30 12:14:34] UPDATE                  /WEB-INF/descr/_model.descr
+[2016-11-30 12:14:34] REMOTE_ADD              /MetroStyle/js/bootstrap.min.js
+[2016-11-30 12:14:34] UPDATE                  /page12.jsp
+[2016-11-30 12:14:34] REMOTE_ADD              /MetroStyle/fonts/DroidSans-regular.svg
+[2016-11-30 12:14:34] REMOTE_ADD              /MetroStyle/fonts/DroidSans-regular.woff
+[2016-11-30 12:14:34] UPDATE                  /page16.jsp
+[2016-11-30 12:14:34] UPDATE                  /page3.jsp
+[2016-11-30 12:14:34] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-11-30 12:14:34] ADD                     /MetroStyle/css/app.css
+[2016-11-30 12:14:34] UPDATE                  /page1.jsp
+[2016-11-30 12:14:34] REMOTE_ADD              /MetroStyle/js/html5shiv.min.js
+[2016-11-30 12:14:34] REMOTE_ADD              /MetroStyle/css/bpm.css
+[2016-11-30 12:14:34] UPDATE                  /page14.jsp
+[2016-11-30 12:14:34] UPDATE                  /WEB-INF/descr/_layout.descr
+[2016-11-30 12:14:34] REMOTE_ADD              /MetroStyle_Error.error.jsp
+[2016-11-30 12:14:34] REMOTE_ADD              /MetroStyle/js/app.min.js
+[2016-11-30 12:14:34] UPDATE                  /page2.jsp
+[2016-11-30 12:14:34] UPDATE                  /page8.jsp
+[2016-11-30 12:14:34] REMOTE_ADD              /MetroStyle_Login.login.jsp
+[2016-11-30 12:14:34] REMOTE_ADD              /MetroStyle/js/respond.min.js
+[2016-11-30 12:14:34] UPDATE                  /page17.jsp
+[2016-11-30 12:14:34] REMOTE_ADD              /MetroStyle/fonts/glyphicons-halflings-regular.ttf
+[2016-11-30 12:14:34] UPDATE                  /page7.jsp
+[2016-11-30 12:14:34] DELETE                  /AdminLTE/css/app.css
+[2016-11-30 12:14:34] DELETE                  /AdminLTE/css/bpm.css
+[2016-11-30 12:14:34] DELETE                  /AdminLTE/fonts/glyphicons-halflings-regular.svg
+[2016-11-30 12:14:34] DELETE                  /AdminLTE/js/app.js
+[2016-11-30 12:14:34] DELETE                  /AdminLTE/img/blur-background08.jpg
+[2016-11-30 12:14:34] DELETE                  /AdminLTE/js/respond.min.js
+[2016-11-30 12:14:34] DELETE                  /AdminLTE/js/html5shiv.min.js
+[2016-11-30 12:14:34] DELETE                  /AdminLTE/js/bootstrap-filestyle.js
+[2016-11-30 12:14:34] DELETE                  /AdminLTE/img/blur-background04.jpg
+[2016-11-30 12:14:34] DELETE                  /AdminLTE/img/blur-background09.jpg
+[2016-11-30 12:14:34] DELETE                  /AdminLTE/fonts/glyphicons-halflings-regular.woff
+[2016-11-30 12:14:34] DELETE                  /AdminLTE/js/bootstrap-filestyle.min.js
+[2016-11-30 12:14:34] DELETE                  /AdminLTE/fonts/glyphicons-halflings-regular.ttf
+[2016-11-30 12:14:34] DELETE                  /AdminLTE/js/app.min.js
+[2016-11-30 12:14:34] DELETE                  /AdminLTE/img/logo.png
+[2016-11-30 12:14:34] DELETE                  /AdminLTE_Error.error.jsp
+[2016-11-30 12:14:34] DELETE                  /AdminLTE/js/bootstrap.min.js
+[2016-11-30 12:14:34] DELETE                  /AdminLTE/css/components.css
+[2016-11-30 12:14:34] DELETE                  /AdminLTE/fonts/glyphicons-halflings-regular.eot
+[2016-11-30 12:14:34] DELETE                  /AdminLTE_Login.login.jsp
+[2016-11-30 12:14:34] DELETE                  /upload/ent8/1/pipe.jpg
+[2016-11-30 12:14:34] --------------------------------------------
+[2016-11-30 12:14:34] Stopping application server
+[2016-11-30 12:14:46] Uploading changes (723.6 KB)
+[2016-11-30 12:14:50] Starting application server

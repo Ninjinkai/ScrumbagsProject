@@ -1,0 +1,13 @@
+[2016-12-03 13:34:13] Uploading application on server [52.212.49.136]
+[2016-12-03 13:34:13] Computing changes...
+[2016-12-03 13:34:15] Found 5 file(s) changed
+[2016-12-03 13:34:15] --------------------------------------------
+[2016-12-03 13:34:15] UPDATE                  /WEB-INF/descr/lgu3.descr
+[2016-12-03 13:34:15] UPDATE                  /WEB-INF/descr/page1.descr
+[2016-12-03 13:34:15] UPDATE                  /WEB-INF/descr/page14.descr
+[2016-12-03 13:34:15] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-12-03 13:34:15] DELETE                  /WEB-INF/descr/oln9.descr
+[2016-12-03 13:34:15] --------------------------------------------
+[2016-12-03 13:34:15] Stopping application server
+[2016-12-03 13:34:25] Uploading changes (368.1 KB)
+[2016-12-03 13:34:27] Starting application server

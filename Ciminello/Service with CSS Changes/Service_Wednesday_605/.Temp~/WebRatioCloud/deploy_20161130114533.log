@@ -1,0 +1,44 @@
+[2016-11-30 11:45:33] Uploading application on server [52.210.230.236]
+[2016-11-30 11:45:33] Computing changes...
+[2016-11-30 11:45:38] Found 36 file(s) changed
+[2016-11-30 11:45:38] --------------------------------------------
+[2016-11-30 11:45:38] UPDATE                  /WEB-INF/descr/_model.descr
+[2016-11-30 11:45:38] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-11-30 11:45:38] UPDATE                  /page14.jsp
+[2016-11-30 11:45:38] REMOTE_UPDATE           /WEB-INF/descr/_layout.descr
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/js/bootstrap-filestyle.js
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/js/app.js
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/dist/css/slate/bootstrap.min.css
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/dist/css/compact/bootstrap.css
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/dist/fonts/glyphicons-halflings-regular.svg
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/dist/css/bootstrap.min.css
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/css/components.css
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/dist/css/bootstrap.css
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/dist/css/cerulean/bootstrap.css
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/js/app.min.js
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle_Login.login.jsp
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/dist/js/bootstrap.min.js
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/dist/css/spacelab/bootstrap.css
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/dist/css/compact/bootstrap.min.css
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/js/bootstrap-filestyle.min.js
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/dist/LICENSE
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/dist/css/united/bootstrap.css
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle_Error.error.jsp
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/dist/css/bootstrap-theme.min.css
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/css/bpm.css
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/css/app.css
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/dist/fonts/glyphicons-halflings-regular.eot
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/js/respond.min.js
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/js/html5shiv.min.js
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/dist/css/bootstrap-theme.css
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/dist/css/cerulean/bootstrap.min.css
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/dist/css/united/bootstrap.min.css
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/dist/css/spacelab/bootstrap.min.css
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/dist/css/slate/bootstrap.css
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/dist/fonts/glyphicons-halflings-regular.woff
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/dist/fonts/glyphicons-halflings-regular.ttf
+[2016-11-30 11:45:38] DELETE                  /BootstrapStyle/dist/js/bootstrap.js
+[2016-11-30 11:45:38] --------------------------------------------
+[2016-11-30 11:45:38] Stopping application server
+[2016-11-30 11:45:49] Uploading changes (378.1 KB)
+[2016-11-30 11:45:55] Starting application server

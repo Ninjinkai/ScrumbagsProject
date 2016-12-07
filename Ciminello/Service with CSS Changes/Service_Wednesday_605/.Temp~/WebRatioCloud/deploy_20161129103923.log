@@ -1,0 +1,10 @@
+[2016-11-29 10:39:23] Uploading application on server [52.213.97.38]
+[2016-11-29 10:39:23] Computing changes...
+[2016-11-29 10:39:25] Found 2 file(s) changed
+[2016-11-29 10:39:25] --------------------------------------------
+[2016-11-29 10:39:25] UPDATE                  /WEB-INF/descr/ln7.descr
+[2016-11-29 10:39:25] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-11-29 10:39:25] --------------------------------------------
+[2016-11-29 10:39:25] Stopping application server
+[2016-11-29 10:39:36] Uploading changes (362.8 KB)
+[2016-11-29 10:39:38] Starting application server

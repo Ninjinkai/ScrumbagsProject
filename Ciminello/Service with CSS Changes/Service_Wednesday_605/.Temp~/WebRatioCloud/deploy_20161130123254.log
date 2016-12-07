@@ -1,0 +1,13 @@
+[2016-11-30 12:32:54] Uploading application on server [52.210.230.236]
+[2016-11-30 12:32:54] Computing changes...
+[2016-11-30 12:32:56] Found 5 file(s) changed
+[2016-11-30 12:32:56] --------------------------------------------
+[2016-11-30 12:32:56] UPDATE                  /WEB-INF/classes/com/webratio/webapp/serviceRequest/ServiceRequest.java
+[2016-11-30 12:32:56] UPDATE                  /WEB-INF/classes/com/webratio/webapp/serviceRequest/ServiceRequest.class
+[2016-11-30 12:32:56] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-11-30 12:32:56] UPDATE          RESTART /WEB-INF/classes/datamodel.xml
+[2016-11-30 12:32:56] UPDATE                  /WEB-INF/classes/com/webratio/webapp/serviceRequest/ServiceRequest.hbm.xml
+[2016-11-30 12:32:56] --------------------------------------------
+[2016-11-30 12:32:56] Stopping application server
+[2016-11-30 12:33:08] Uploading changes (376.2 KB)
+[2016-11-30 12:33:11] Starting application server

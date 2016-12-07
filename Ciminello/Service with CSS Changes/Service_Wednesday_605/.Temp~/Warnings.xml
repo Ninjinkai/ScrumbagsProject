@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Warnings> 
+  <Warning xpath="id('sv1#lou2')" rootXPath="id('sv1')" error="false" label="Logout" key="NO_OUTGOING_KO_LINKS"> 
+    <Message>No outgoing KO flow(s) for the operation 'Logout'</Message> 
+  </Warning>  
+  <Warning xpath="id('sv1#dlu1')" rootXPath="id('sv1')" error="false" label="Remove Service Request" key="NO_OUTGOING_KO_LINKS"> 
+    <Message>No outgoing KO flow(s) for the operation 'Remove Service Request'</Message> 
+  </Warning>  
+  <Warning xpath="id('sv1#opg1#cru1')" rootXPath="id('sv1')" error="false" label="Save Customer" key="NO_OUTGOING_KO_LINKS"> 
+    <Message>No outgoing KO flow(s) for the operation 'Save Customer'</Message> 
+  </Warning>  
+  <Warning xpath="id('sv1#opg1#lgu1')" rootXPath="id('sv1')" error="false" label="Login" key="NO_OUTGOING_KO_LINKS"> 
+    <Message>No outgoing KO flow(s) for the operation 'Login'</Message> 
+  </Warning>  
+  <Warning xpath="id('sv1#area10#opu5')" rootXPath="id('sv1')" error="false" label="Reset Search" key="NO_OUTGOING_KO_LINKS"> 
+    <Message>No outgoing KO flow(s) for the operation 'Reset Search'</Message> 
+  </Warning> 
+</Warnings>

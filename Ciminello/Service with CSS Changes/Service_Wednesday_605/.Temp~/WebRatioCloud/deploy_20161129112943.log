@@ -1,0 +1,22 @@
+[2016-11-29 11:29:43] Uploading application on server [52.213.97.38]
+[2016-11-29 11:29:43] Computing changes...
+[2016-11-29 11:29:44] Found 14 file(s) changed
+[2016-11-29 11:29:44] --------------------------------------------
+[2016-11-29 11:29:44] UPDATE                  /WEB-INF/descr/cru1.descr
+[2016-11-29 11:29:44] REMOTE_UPDATE           /WEB-INF/descr/seu7.descr
+[2016-11-29 11:29:44] UPDATE                  /WEB-INF/descr/page16.descr
+[2016-11-29 11:29:44] UPDATE                  /WEB-INF/descr/mfu1.descr
+[2016-11-29 11:29:44] UPDATE                  /WEB-INF/descr/page2.descr
+[2016-11-29 11:29:44] UPDATE                  /WEB-INF/descr/ln7.descr
+[2016-11-29 11:29:44] UPDATE                  /WEB-INF/descr/dlu5.descr
+[2016-11-29 11:29:44] UPDATE                  /WEB-INF/descr/ln45.descr
+[2016-11-29 11:29:44] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-11-29 11:29:44] UPDATE                  /WEB-INF/descr/cru6.descr
+[2016-11-29 11:29:44] UPDATE                  /WEB-INF/descr/page3.descr
+[2016-11-29 11:29:44] UPDATE                  /WEB-INF/descr/ln42.descr
+[2016-11-29 11:29:44] UPDATE                  /WEB-INF/descr/opu4.descr
+[2016-11-29 11:29:44] DELETE                  /upload/ent8/1/fan.jpg
+[2016-11-29 11:29:44] --------------------------------------------
+[2016-11-29 11:29:44] Stopping application server
+[2016-11-29 11:29:56] Uploading changes (385.6 KB)
+[2016-11-29 11:29:58] Starting application server

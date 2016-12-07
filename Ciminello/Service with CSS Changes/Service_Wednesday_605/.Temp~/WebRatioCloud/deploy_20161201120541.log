@@ -1,0 +1,24 @@
+[2016-12-01 12:05:41] Uploading application on server [52.48.126.208]
+[2016-12-01 12:05:41] Computing changes...
+[2016-12-01 12:05:43] Found 16 file(s) changed
+[2016-12-01 12:05:43] --------------------------------------------
+[2016-12-01 12:05:43] UPDATE                  /page4.jsp
+[2016-12-01 12:05:43] UPDATE                  /WEB-INF/descr/mpage3.descr
+[2016-12-01 12:05:43] UPDATE                  /page5.jsp
+[2016-12-01 12:05:43] ADD                     /WEB-INF/descr/oln8.descr
+[2016-12-01 12:05:43] UPDATE          RESTART /WEB-INF/conf/struts-config.xml
+[2016-12-01 12:05:43] UPDATE                  /WEB-INF/descr/_model.descr
+[2016-12-01 12:05:43] UPDATE                  /page16.jsp
+[2016-12-01 12:05:43] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-12-01 12:05:43] ADD                     /WEB-INF/descr/ln14.descr
+[2016-12-01 12:05:43] ADD                     /WEB-INF/descr/page10.descr
+[2016-12-01 12:05:43] UPDATE                  /page14.jsp
+[2016-12-01 12:05:43] ADD                     /page10.jsp
+[2016-12-01 12:05:43] ADD                     /WEB-INF/descr/ln11.descr
+[2016-12-01 12:05:43] ADD                     /WEB-INF/descr/dlu1.descr
+[2016-12-01 12:05:43] UPDATE                  /page8.jsp
+[2016-12-01 12:05:43] UPDATE                  /page17.jsp
+[2016-12-01 12:05:43] --------------------------------------------
+[2016-12-01 12:05:43] Stopping application server
+[2016-12-01 12:05:54] Uploading changes (474.3 KB)
+[2016-12-01 12:05:56] Starting application server

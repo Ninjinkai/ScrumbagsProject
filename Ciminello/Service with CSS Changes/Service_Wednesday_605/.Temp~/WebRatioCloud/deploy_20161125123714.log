@@ -1,0 +1,11 @@
+[2016-11-25 12:37:14] Uploading application on server [52.208.176.55]
+[2016-11-25 12:37:14] Computing changes...
+[2016-11-25 12:37:16] Found 3 file(s) changed
+[2016-11-25 12:37:16] --------------------------------------------
+[2016-11-25 12:37:16] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-11-25 12:37:16] DELETE                  /upload/ent8/1/Microsoft-Word-2013.png
+[2016-11-25 12:37:16] DELETE                  /upload/ent8/1/google-docs-icons.jpg
+[2016-11-25 12:37:16] --------------------------------------------
+[2016-11-25 12:37:16] Stopping application server
+[2016-11-25 12:37:27] Uploading changes (361.9 KB)
+[2016-11-25 12:37:29] Starting application server

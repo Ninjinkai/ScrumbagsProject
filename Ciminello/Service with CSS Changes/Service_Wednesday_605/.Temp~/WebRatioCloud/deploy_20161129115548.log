@@ -1,0 +1,15 @@
+[2016-11-29 11:55:48] Uploading application on server [52.213.97.38]
+[2016-11-29 11:55:48] Computing changes...
+[2016-11-29 11:55:50] Found 7 file(s) changed
+[2016-11-29 11:55:50] --------------------------------------------
+[2016-11-29 11:55:50] UPDATE                  /WEB-INF/descr/enu4.descr
+[2016-11-29 11:55:50] UPDATE                  /WEB-INF/descr/ln39.descr
+[2016-11-29 11:55:50] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-11-29 11:55:50] UPDATE                  /WEB-INF/descr/cru6.descr
+[2016-11-29 11:55:50] UPDATE                  /WEB-INF/descr/ln26.descr
+[2016-11-29 11:55:50] UPDATE                  /page7.jsp
+[2016-11-29 11:55:50] DELETE                  /upload/ent8/1/chair.jpg
+[2016-11-29 11:55:50] --------------------------------------------
+[2016-11-29 11:55:50] Stopping application server
+[2016-11-29 11:56:01] Uploading changes (382.3 KB)
+[2016-11-29 11:56:11] Starting application server

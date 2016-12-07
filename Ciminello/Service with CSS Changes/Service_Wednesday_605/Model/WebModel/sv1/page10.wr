@@ -1,0 +1,71 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#page10" name="My Service Requests" landmark="false" ignoreMasterPage="false" layout:pageLayout="MetroStyle/Default" ajaxEnabled="false" gr:x="-260" gr:y="425">
+  <ContentUnits>
+    <PowerIndexUnit id="sv1#page10#pwu5" name="My Service Requests" linkOrder="sv1#page10#pwu5#ln11" gr:x="5" gr:y="0" sortable="true" checkable="false" useCountQuery="false" blockWindow="1" entity="pkg1#ent8" displayAttributes="pkg1#ent8#att41 pkg1#ent8#att40 pkg1#ent8#att11 pkg1#ent8#att1">
+      <Link id="sv1#page10#pwu5#ln11" name="Delete" to="sv1#dlu1" type="normal" validate="true" automaticCoupling="true"/>
+      <SortAttribute attribute="pkg1#ent8#att41" order="ascending"/>
+      <SortAttribute attribute="pkg1#ent8#att10" order="descending"/>
+      <DefaultSortAttribute attribute="pkg1#ent8#att10" order="descending"/>
+      <Selector id="sv1#page10#pwu5#su10" defaultPolicy="fill" booleanOperator="and">
+        <RelationshipRoleCondition id="sv1#page10#pwu5#su10#rcond3" name="ThisUser" role="rel1#role1" predicate="in" implied="false"/>
+      </Selector>
+    </PowerIndexUnit>
+    <GetUnit gr:x="0" gr:y="145" id="sv1#page10#gtu3" name="Get Current User" contextParameters="UserCtxParam">
+      <Link id="sv1#page10#gtu3#ln18" name="Flow18" to="sv1#page10#pwu5" automaticCoupling="true" type="transport" validate="true"/>
+    </GetUnit>
+  </ContentUnits>
+  <layout:Grid>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#page10#pwu5">
+          <layout:Attribute attribute="pkg1#ent8#att41"/>
+          <layout:Attribute attribute="pkg1#ent8#att40"/>
+          <layout:Attribute attribute="pkg1#ent8#att11"/>
+          <layout:Attribute attribute="pkg1#ent8#att1"/>
+          <layout:Link link="sv1#page10#pwu5#ln11">
+            <layout:LayoutParameter name="confirmation" value="true" type="link"/>
+          </layout:Link>
+          <layout:Link link="sv1#page10#pwu5pkg1#ent8#att41"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>
