@@ -1,0 +1,9 @@
+[2016-12-08 19:02:36] Uploading application on server [52.212.3.131]
+[2016-12-08 19:02:36] Computing changes...
+[2016-12-08 19:02:39] Found 1 file(s) changed
+[2016-12-08 19:02:39] --------------------------------------------
+[2016-12-08 19:02:39] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-12-08 19:02:39] --------------------------------------------
+[2016-12-08 19:02:39] Stopping application server
+[2016-12-08 19:02:51] Uploading changes (361.9 KB)
+[2016-12-08 19:02:52] Starting application server

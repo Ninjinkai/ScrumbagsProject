@@ -1,41 +1,41 @@
-[01 Dec 2016 12:31:24] DEBUG Executing SQL script
-[01 Dec 2016 12:31:24] INFO ================================================================================
-[01 Dec 2016 12:31:24] INFO outputPath= '/Applications/WebRatio/WebRatio/WebRatio.app/Contents/MacOS/workspace/Service/.Temp~/UpdateSQL.xml'
-[01 Dec 2016 12:31:24] INFO onError= 'stop'
-[01 Dec 2016 12:31:24] INFO statementSeparator= ';'
-[01 Dec 2016 12:31:24] INFO derby.system.home= '/Applications/WebRatio/WebRatio/WebRatio.app/Contents/MacOS/workspace/.metadata/.plugins/com.webratio.commons.db/derby'
-[01 Dec 2016 12:31:24] INFO password= 'F27A6A86'
-[01 Dec 2016 12:31:24] INFO url= 'jdbc:mysql://52.213.178.53:3306/freeapp24'
-[01 Dec 2016 12:31:24] INFO username= 'freeapp24'
-[01 Dec 2016 12:31:24] INFO autoCommit= 'false'
-[01 Dec 2016 12:31:24] INFO outputLogPath= '/Applications/WebRatio/WebRatio/WebRatio.app/Contents/MacOS/workspace/Service/.Temp~/UpdateSQL.xml.log'
-[01 Dec 2016 12:31:24] INFO driverClass= 'com.mysql.jdbc.Driver'
-[01 Dec 2016 12:31:24] INFO encoding= ''
-[01 Dec 2016 12:31:24] INFO eventSocketPort= '62997'
-[01 Dec 2016 12:31:24] INFO sqlScript= '/Applications/WebRatio/WebRatio/WebRatio.app/Contents/MacOS/workspace/Service/.Temp~/UpdateSQL.sql'
-[01 Dec 2016 12:31:24] INFO ================================================================================
-[01 Dec 2016 12:31:24] INFO Connecting to the Database...
-[01 Dec 2016 12:31:25] INFO Database connection estabilished
-[01 Dec 2016 12:31:25] INFO transaction isolation: 4
-[01 Dec 2016 12:31:25] DEBUG ================================================================================
-[01 Dec 2016 12:31:25] DEBUG Executing SQL script file: /Applications/WebRatio/WebRatio/WebRatio.app/Contents/MacOS/workspace/Service/.Temp~/UpdateSQL.sql
-[01 Dec 2016 12:31:25] DEBUG Executing statement:  create table `group_3` ( `oid`  integer  not null, `group_name`  varchar(255), primary key (`oid`) )
-[01 Dec 2016 12:31:26] DEBUG Executing statement:    create table `module_3` ( `oid`  integer  not null, `module_id`  varchar(255), `module_name`  varchar(255), primary key (`oid`) )
-[01 Dec 2016 12:31:26] DEBUG Executing statement:    create table `user_3` ( `oid`  integer  not null, `username`  varchar(255), `password`  varchar(255), `email`  varchar(255), primary key (`oid`) )
-[01 Dec 2016 12:31:26] DEBUG Executing statement:    create table `servicerequest_2` ( `oid`  integer  not null, `description`  longtext, `location`  varchar(255), `photo`  varchar(255), `photoblob`  longblob, `time_added`  datetime, `status`  varchar(255), primary key (`oid`) )
-[01 Dec 2016 12:31:27] DEBUG Executing statement:    alter table `group_3`  add column  `module_3_oid`  integer
-[01 Dec 2016 12:31:27] DEBUG Executing statement:  alter table `group_3`   add index fk_group_3_module_3 (`module_3_oid`), add constraint fk_group_3_module_3 foreign key (`module_3_oid`) references `module_3` (`oid`)
-[01 Dec 2016 12:31:27] DEBUG Executing statement:    create table `group_module_3` ( `group_3_oid`  integer not null, `module_3_oid`  integer not null, primary key (`group_3_oid`, `module_3_oid`) )
-[01 Dec 2016 12:31:28] DEBUG Executing statement:  alter table `group_module_3`   add index fk_group_module_3_group_3 (`group_3_oid`), add constraint fk_group_module_3_group_3 foreign key (`group_3_oid`) references `group_3` (`oid`)
-[01 Dec 2016 12:31:28] DEBUG Executing statement:  alter table `group_module_3`   add index fk_group_module_3_module_3 (`module_3_oid`), add constraint fk_group_module_3_module_3 foreign key (`module_3_oid`) references `module_3` (`oid`)
-[01 Dec 2016 12:31:28] DEBUG Executing statement:    alter table `user_3`  add column  `group_3_oid`  integer
-[01 Dec 2016 12:31:29] DEBUG Executing statement:  alter table `user_3`   add index fk_user_3_group_3 (`group_3_oid`), add constraint fk_user_3_group_3 foreign key (`group_3_oid`) references `group_3` (`oid`)
-[01 Dec 2016 12:31:29] DEBUG Executing statement:    create table `user_group_3` ( `user_3_oid`  integer not null, `group_3_oid`  integer not null, primary key (`user_3_oid`, `group_3_oid`) )
-[01 Dec 2016 12:31:30] DEBUG Executing statement:  alter table `user_group_3`   add index fk_user_group_3_user_3 (`user_3_oid`), add constraint fk_user_group_3_user_3 foreign key (`user_3_oid`) references `user_3` (`oid`)
-[01 Dec 2016 12:31:30] DEBUG Executing statement:  alter table `user_group_3`   add index fk_user_group_3_group_3 (`group_3_oid`), add constraint fk_user_group_3_group_3 foreign key (`group_3_oid`) references `group_3` (`oid`)
-[01 Dec 2016 12:31:30] DEBUG Executing statement:    alter table `servicerequest_2`  add column  `user_3_oid`  integer
-[01 Dec 2016 12:31:31] DEBUG Executing statement:  alter table `servicerequest_2`   add index fk_servicerequest_2_user_3 (`user_3_oid`), add constraint fk_servicerequest_2_user_3 foreign key (`user_3_oid`) references `user_3` (`oid`)
-[01 Dec 2016 12:31:31] DEBUG ================================================================================
-[01 Dec 2016 12:31:31] DEBUG SQL SCRIPT SUCCESSFULLY EXECUTED
-[01 Dec 2016 12:31:31] INFO Database connection closed
-[01 Dec 2016 12:31:31] DEBUG Total time: 7885 milliseconds
+[08 Dec 2016 19:01:46] DEBUG Executing SQL script
+[08 Dec 2016 19:01:46] INFO ================================================================================
+[08 Dec 2016 19:01:46] INFO onError= 'stop'
+[08 Dec 2016 19:01:46] INFO autoCommit= 'false'
+[08 Dec 2016 19:01:46] INFO username= 'freeapp35'
+[08 Dec 2016 19:01:46] INFO outputPath= 'C:\WebRatio\WebRatio Platform 7.2.14.x64bit\workspace\Service_Wednesday_605\.Temp~\UpdateSQL.xml'
+[08 Dec 2016 19:01:46] INFO outputLogPath= 'C:\WebRatio\WebRatio Platform 7.2.14.x64bit\workspace\Service_Wednesday_605\.Temp~\UpdateSQL.xml.log'
+[08 Dec 2016 19:01:46] INFO encoding= ''
+[08 Dec 2016 19:01:46] INFO driverClass= 'com.mysql.jdbc.Driver'
+[08 Dec 2016 19:01:46] INFO sqlScript= 'C:\WebRatio\WebRatio Platform 7.2.14.x64bit\workspace\Service_Wednesday_605\.Temp~\UpdateSQL.sql'
+[08 Dec 2016 19:01:46] INFO eventSocketPort= '55773'
+[08 Dec 2016 19:01:46] INFO statementSeparator= ';'
+[08 Dec 2016 19:01:46] INFO derby.system.home= 'C:\WebRatio\WebRatio Platform 7.2.14.x64bit\workspace\.metadata\.plugins\com.webratio.commons.db\derby'
+[08 Dec 2016 19:01:46] INFO password= '3B112528'
+[08 Dec 2016 19:01:46] INFO url= 'jdbc:mysql://52.213.178.53:3306/freeapp35'
+[08 Dec 2016 19:01:46] INFO ================================================================================
+[08 Dec 2016 19:01:46] INFO Connecting to the Database...
+[08 Dec 2016 19:01:48] INFO Database connection estabilished
+[08 Dec 2016 19:01:48] INFO transaction isolation: 4
+[08 Dec 2016 19:01:49] DEBUG ================================================================================
+[08 Dec 2016 19:01:49] DEBUG Executing SQL script file: C:\WebRatio\WebRatio Platform 7.2.14.x64bit\workspace\Service_Wednesday_605\.Temp~\UpdateSQL.sql
+[08 Dec 2016 19:01:49] DEBUG Executing statement:  create table `group_3` ( `oid`  integer  not null, `group_name`  varchar(255), primary key (`oid`) )
+[08 Dec 2016 19:01:49] DEBUG Executing statement:    create table `module_3` ( `oid`  integer  not null, `module_id`  varchar(255), `module_name`  varchar(255), primary key (`oid`) )
+[08 Dec 2016 19:01:49] DEBUG Executing statement:    create table `user_3` ( `oid`  integer  not null, `username`  varchar(255), `password`  varchar(255), `email`  varchar(255), primary key (`oid`) )
+[08 Dec 2016 19:01:50] DEBUG Executing statement:    create table `servicerequest_2` ( `oid`  integer  not null, `description`  longtext, `location`  varchar(255), `photo`  varchar(255), `photoblob`  longblob, `time_added`  datetime, `status`  varchar(255), primary key (`oid`) )
+[08 Dec 2016 19:01:50] DEBUG Executing statement:    alter table `group_3`  add column  `module_3_oid`  integer
+[08 Dec 2016 19:01:51] DEBUG Executing statement:  alter table `group_3`   add index fk_group_3_module_3 (`module_3_oid`), add constraint fk_group_3_module_3 foreign key (`module_3_oid`) references `module_3` (`oid`)
+[08 Dec 2016 19:01:51] DEBUG Executing statement:    create table `group_module_3` ( `group_3_oid`  integer not null, `module_3_oid`  integer not null, primary key (`group_3_oid`, `module_3_oid`) )
+[08 Dec 2016 19:01:51] DEBUG Executing statement:  alter table `group_module_3`   add index fk_group_module_3_group_3 (`group_3_oid`), add constraint fk_group_module_3_group_3 foreign key (`group_3_oid`) references `group_3` (`oid`)
+[08 Dec 2016 19:01:52] DEBUG Executing statement:  alter table `group_module_3`   add index fk_group_module_3_module_3 (`module_3_oid`), add constraint fk_group_module_3_module_3 foreign key (`module_3_oid`) references `module_3` (`oid`)
+[08 Dec 2016 19:01:52] DEBUG Executing statement:    alter table `user_3`  add column  `group_3_oid`  integer
+[08 Dec 2016 19:01:52] DEBUG Executing statement:  alter table `user_3`   add index fk_user_3_group_3 (`group_3_oid`), add constraint fk_user_3_group_3 foreign key (`group_3_oid`) references `group_3` (`oid`)
+[08 Dec 2016 19:01:53] DEBUG Executing statement:    create table `user_group_3` ( `user_3_oid`  integer not null, `group_3_oid`  integer not null, primary key (`user_3_oid`, `group_3_oid`) )
+[08 Dec 2016 19:01:53] DEBUG Executing statement:  alter table `user_group_3`   add index fk_user_group_3_user_3 (`user_3_oid`), add constraint fk_user_group_3_user_3 foreign key (`user_3_oid`) references `user_3` (`oid`)
+[08 Dec 2016 19:01:54] DEBUG Executing statement:  alter table `user_group_3`   add index fk_user_group_3_group_3 (`group_3_oid`), add constraint fk_user_group_3_group_3 foreign key (`group_3_oid`) references `group_3` (`oid`)
+[08 Dec 2016 19:01:54] DEBUG Executing statement:    alter table `servicerequest_2`  add column  `user_3_oid`  integer
+[08 Dec 2016 19:01:54] DEBUG Executing statement:  alter table `servicerequest_2`   add index fk_servicerequest_2_user_3 (`user_3_oid`), add constraint fk_servicerequest_2_user_3 foreign key (`user_3_oid`) references `user_3` (`oid`)
+[08 Dec 2016 19:01:55] DEBUG ================================================================================
+[08 Dec 2016 19:01:55] DEBUG SQL SCRIPT SUCCESSFULLY EXECUTED
+[08 Dec 2016 19:01:55] INFO Database connection closed
+[08 Dec 2016 19:01:55] DEBUG Total time: 9063 milliseconds

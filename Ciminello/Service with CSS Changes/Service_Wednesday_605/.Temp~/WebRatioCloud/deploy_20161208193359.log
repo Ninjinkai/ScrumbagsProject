@@ -1,0 +1,10 @@
+[2016-12-08 19:33:59] Uploading application on server [52.212.3.131]
+[2016-12-08 19:33:59] Computing changes...
+[2016-12-08 19:34:03] Found 2 file(s) changed
+[2016-12-08 19:34:03] --------------------------------------------
+[2016-12-08 19:34:03] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-12-08 19:34:03] UPDATE                  /MetroStyle/css/app.css
+[2016-12-08 19:34:03] --------------------------------------------
+[2016-12-08 19:34:03] Stopping application server
+[2016-12-08 19:34:14] Uploading changes (541.3 KB)
+[2016-12-08 19:34:16] Starting application server

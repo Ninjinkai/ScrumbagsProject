@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<DBMetaData driverMajorVersion="5" driverMinorVersion="1" driverVersion="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )" productVersion="5.6.34" identifierQuoteString="`" transactionLevel="Repeatable read" driverName="MySQL Connector Java" productName="MySQL">
-  <Table type="TABLE" schema="" ignoreIndexes="false" name="group_3" refreshed="true">
+<DBMetaData driverMajorVersion="5" driverMinorVersion="1" driverVersion="mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )" productVersion="5.6.34" identifierQuoteString="`" transactionLevel="Repeatable read" driverName="MySQL Connector Java" productName="MySQL">
+  <Table schema="" ignoreIndexes="false" name="group_3" type="TABLE" refreshed="true">
     <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INT" size="10" decimalDigits="0" name="oid" primaryKey="true" notNull="true"/>
     <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="255" decimalDigits="0" name="group_name" primaryKey="false" notNull="false"/>
     <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INT" size="10" decimalDigits="0" name="module_3_oid" primaryKey="false" notNull="false"/>
   </Table>
-  <Table type="TABLE" schema="" ignoreIndexes="false" name="group_module_3" refreshed="true">
+  <Table schema="" ignoreIndexes="false" name="group_module_3" type="TABLE" refreshed="true">
     <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INT" size="10" decimalDigits="0" name="group_3_oid" primaryKey="true" notNull="true"/>
     <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INT" size="10" decimalDigits="0" name="module_3_oid" primaryKey="true" notNull="true"/>
   </Table>
-  <Table type="TABLE" schema="" ignoreIndexes="false" name="module_3" refreshed="true">
+  <Table schema="" ignoreIndexes="false" name="module_3" type="TABLE" refreshed="true">
     <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INT" size="10" decimalDigits="0" name="oid" primaryKey="true" notNull="true"/>
     <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="255" decimalDigits="0" name="module_id" primaryKey="false" notNull="false"/>
     <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="255" decimalDigits="0" name="module_name" primaryKey="false" notNull="false"/>
   </Table>
-  <Table type="TABLE" schema="" ignoreIndexes="false" name="servicerequest_2" refreshed="true">
+  <Table schema="" ignoreIndexes="false" name="servicerequest_2" type="TABLE" refreshed="true">
     <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INT" size="10" decimalDigits="0" name="oid" primaryKey="true" notNull="true"/>
     <Column sqlTypeId="-1" indexed="unknown" autoIncrement="false" type="LONGTEXT" size="2147483647" decimalDigits="0" name="description" primaryKey="false" notNull="false"/>
     <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="255" decimalDigits="0" name="location" primaryKey="false" notNull="false"/>
@@ -25,14 +25,14 @@
     <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="255" decimalDigits="0" name="status" primaryKey="false" notNull="false"/>
     <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INT" size="10" decimalDigits="0" name="user_3_oid" primaryKey="false" notNull="false"/>
   </Table>
-  <Table type="TABLE" schema="" ignoreIndexes="false" name="user_3" refreshed="true">
+  <Table schema="" ignoreIndexes="false" name="user_3" type="TABLE" refreshed="true">
     <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INT" size="10" decimalDigits="0" name="oid" primaryKey="true" notNull="true"/>
     <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="255" decimalDigits="0" name="username" primaryKey="false" notNull="false"/>
     <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="255" decimalDigits="0" name="password" primaryKey="false" notNull="false"/>
     <Column sqlTypeId="12" indexed="unknown" autoIncrement="false" type="VARCHAR" size="255" decimalDigits="0" name="email" primaryKey="false" notNull="false"/>
     <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INT" size="10" decimalDigits="0" name="group_3_oid" primaryKey="false" notNull="false"/>
   </Table>
-  <Table type="TABLE" schema="" ignoreIndexes="false" name="user_group_3" refreshed="true">
+  <Table schema="" ignoreIndexes="false" name="user_group_3" type="TABLE" refreshed="true">
     <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INT" size="10" decimalDigits="0" name="user_3_oid" primaryKey="true" notNull="true"/>
     <Column sqlTypeId="4" indexed="unknown" autoIncrement="false" type="INT" size="10" decimalDigits="0" name="group_3_oid" primaryKey="true" notNull="true"/>
   </Table>
