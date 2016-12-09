@@ -1,69 +1,69 @@
-[01 Dec 2016 12:31:33] Building database metadata model
-[01 Dec 2016 12:31:33] Properties: {partialRefresh=false, processColumnsUsingSelect=, includePrimaryKeys=true, eventSocketClient=com.webratio.commons.net.EventSocketClient@6860991f, includeTables=true, username=freeapp24, outputLogPath=/Applications/WebRatio/WebRatio/WebRatio.app/Contents/MacOS/workspace/Service/.Temp~/DB.xml.log, readIndexes=null, driverClass=com.mysql.jdbc.Driver, includeSynonyms=true, metaDataProviderClass=com.webratio.commons.db.metadata.MySQLMetaDataProvider, outputPath=/Applications/WebRatio/WebRatio/WebRatio.app/Contents/MacOS/workspace/Service/.Temp~/DB.xml, schemaRegex=null, readProcedures=null, includeViews=true, derby.system.home=/Applications/WebRatio/WebRatio/WebRatio.app/Contents/MacOS/workspace/.metadata/.plugins/com.webratio.commons.db/derby, url=jdbc:mysql://52.213.178.53:3306/freeapp24, tableRegex=null, readSQLDefinitions=true, includeForeignKeys=false, retrieveAllNames=false, tablesToRefresh=, eventSocketPort=63023}
-[01 Dec 2016 12:31:33] URL: jdbc:mysql://52.213.178.53:3306/freeapp24
-[01 Dec 2016 12:31:33] Product name: MySQL
-[01 Dec 2016 12:31:33] Product version: 5.6.34
-[01 Dec 2016 12:31:33] Driver name: MySQL Connector Java
-[01 Dec 2016 12:31:33] Driver version: mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )
-[01 Dec 2016 12:31:33] Driver major version: 5
-[01 Dec 2016 12:31:33] Driver minor version: 1
-[01 Dec 2016 12:31:33] Identifier quote string: 1
-[01 Dec 2016 12:31:33] Retrieving schemas
-[01 Dec 2016 12:31:33] Retrieving [TABLE, VIEW, SYNONYM] for schema ''
-[01 Dec 2016 12:31:33]   Found 'group_3' [type = TABLE]
-[01 Dec 2016 12:31:33]   Found 'group_module_3' [type = TABLE]
-[01 Dec 2016 12:31:33]   Found 'module_3' [type = TABLE]
-[01 Dec 2016 12:31:33]   Found 'servicerequest_2' [type = TABLE]
-[01 Dec 2016 12:31:33]   Found 'user_3' [type = TABLE]
-[01 Dec 2016 12:31:33]   Found 'user_group_3' [type = TABLE]
-[01 Dec 2016 12:31:33] Retrieving columns for 'group_3' [type = TABLE]
-[01 Dec 2016 12:31:34]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[01 Dec 2016 12:31:34]   Found column: group_name [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[01 Dec 2016 12:31:34]   Found column: module_3_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[01 Dec 2016 12:31:34] Retrieving primary keys for 'group_3' [type = TABLE]
-[01 Dec 2016 12:31:34]   Found primary key column: oid
-[01 Dec 2016 12:31:34] Retrieving columns for 'group_module_3' [type = TABLE]
-[01 Dec 2016 12:31:34]   Found column: group_3_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[01 Dec 2016 12:31:34]   Found column: module_3_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[01 Dec 2016 12:31:34] Retrieving primary keys for 'group_module_3' [type = TABLE]
-[01 Dec 2016 12:31:34]   Found primary key column: group_3_oid
-[01 Dec 2016 12:31:34]   Found primary key column: module_3_oid
-[01 Dec 2016 12:31:34] Retrieving columns for 'module_3' [type = TABLE]
-[01 Dec 2016 12:31:35]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[01 Dec 2016 12:31:35]   Found column: module_id [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[01 Dec 2016 12:31:35]   Found column: module_name [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[01 Dec 2016 12:31:35] Retrieving primary keys for 'module_3' [type = TABLE]
-[01 Dec 2016 12:31:35]   Found primary key column: oid
-[01 Dec 2016 12:31:35] Retrieving columns for 'servicerequest_2' [type = TABLE]
-[01 Dec 2016 12:31:35]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[01 Dec 2016 12:31:35]   Found column: description [type = LONGTEXT][SQL/XOPEN type = -1][size = 2147483647][dec. digits = 0]
-[01 Dec 2016 12:31:35]   Found column: location [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[01 Dec 2016 12:31:35]   Found column: photo [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[01 Dec 2016 12:31:35]   Found column: photoblob [type = LONGBLOB][SQL/XOPEN type = -4][size = 2147483647][dec. digits = 0]
-[01 Dec 2016 12:31:35]   Found column: time_added [type = DATETIME][SQL/XOPEN type = 93][size = 19][dec. digits = 0]
-[01 Dec 2016 12:31:35]   Found column: status [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[01 Dec 2016 12:31:35]   Found column: user_3_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[01 Dec 2016 12:31:35] Retrieving primary keys for 'servicerequest_2' [type = TABLE]
-[01 Dec 2016 12:31:35]   Found primary key column: oid
-[01 Dec 2016 12:31:35] Retrieving columns for 'user_3' [type = TABLE]
-[01 Dec 2016 12:31:35]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[01 Dec 2016 12:31:35]   Found column: username [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[01 Dec 2016 12:31:35]   Found column: password [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[01 Dec 2016 12:31:35]   Found column: email [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
-[01 Dec 2016 12:31:35]   Found column: group_3_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[01 Dec 2016 12:31:35] Retrieving primary keys for 'user_3' [type = TABLE]
-[01 Dec 2016 12:31:36]   Found primary key column: oid
-[01 Dec 2016 12:31:36] Retrieving columns for 'user_group_3' [type = TABLE]
-[01 Dec 2016 12:31:36]   Found column: user_3_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[01 Dec 2016 12:31:36]   Found column: group_3_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
-[01 Dec 2016 12:31:36] Retrieving primary keys for 'user_group_3' [type = TABLE]
-[01 Dec 2016 12:31:36]   Found primary key column: user_3_oid
-[01 Dec 2016 12:31:36]   Found primary key column: group_3_oid
-[01 Dec 2016 12:31:36] Database metadata retrieved (2873 ms)
-[01 Dec 2016 12:31:36] Retrieving auto-increment columns for 'group_3' [type = TABLE]
-[01 Dec 2016 12:31:36] Retrieving auto-increment columns for 'group_module_3' [type = TABLE]
-[01 Dec 2016 12:31:36] Retrieving auto-increment columns for 'module_3' [type = TABLE]
-[01 Dec 2016 12:31:36] Retrieving auto-increment columns for 'servicerequest_2' [type = TABLE]
-[01 Dec 2016 12:31:37] Retrieving auto-increment columns for 'user_3' [type = TABLE]
-[01 Dec 2016 12:31:37] Retrieving auto-increment columns for 'user_group_3' [type = TABLE]
-[01 Dec 2016 12:31:37] Database connection closed
+[08 Dec 2016 19:02:06] Building database metadata model
+[08 Dec 2016 19:02:06] Properties: {partialRefresh=false, processColumnsUsingSelect=, includePrimaryKeys=true, eventSocketClient=com.webratio.commons.net.EventSocketClient@65e7deb6, includeTables=true, username=freeapp35, outputLogPath=C:\WebRatio\WebRatio Platform 7.2.14.x64bit\workspace\Service_Wednesday_605\.Temp~\DB.xml.log, readIndexes=null, driverClass=com.mysql.jdbc.Driver, includeSynonyms=true, metaDataProviderClass=com.webratio.commons.db.metadata.MySQLMetaDataProvider, outputPath=C:\WebRatio\WebRatio Platform 7.2.14.x64bit\workspace\Service_Wednesday_605\.Temp~\DB.xml, schemaRegex=null, readProcedures=null, includeViews=true, derby.system.home=C:\WebRatio\WebRatio Platform 7.2.14.x64bit\workspace\.metadata\.plugins\com.webratio.commons.db\derby, url=jdbc:mysql://52.213.178.53:3306/freeapp35, tableRegex=null, readSQLDefinitions=true, includeForeignKeys=false, retrieveAllNames=false, tablesToRefresh=, eventSocketPort=55784}
+[08 Dec 2016 19:02:06] URL: jdbc:mysql://52.213.178.53:3306/freeapp35
+[08 Dec 2016 19:02:06] Product name: MySQL
+[08 Dec 2016 19:02:06] Product version: 5.6.34
+[08 Dec 2016 19:02:06] Driver name: MySQL Connector Java
+[08 Dec 2016 19:02:06] Driver version: mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )
+[08 Dec 2016 19:02:06] Driver major version: 5
+[08 Dec 2016 19:02:06] Driver minor version: 1
+[08 Dec 2016 19:02:06] Identifier quote string: 1
+[08 Dec 2016 19:02:06] Retrieving schemas
+[08 Dec 2016 19:02:06] Retrieving [TABLE, VIEW, SYNONYM] for schema ''
+[08 Dec 2016 19:02:07]   Found 'group_3' [type = TABLE]
+[08 Dec 2016 19:02:07]   Found 'group_module_3' [type = TABLE]
+[08 Dec 2016 19:02:07]   Found 'module_3' [type = TABLE]
+[08 Dec 2016 19:02:07]   Found 'servicerequest_2' [type = TABLE]
+[08 Dec 2016 19:02:07]   Found 'user_3' [type = TABLE]
+[08 Dec 2016 19:02:07]   Found 'user_group_3' [type = TABLE]
+[08 Dec 2016 19:02:07] Retrieving columns for 'group_3' [type = TABLE]
+[08 Dec 2016 19:02:07]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[08 Dec 2016 19:02:07]   Found column: group_name [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[08 Dec 2016 19:02:07]   Found column: module_3_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[08 Dec 2016 19:02:07] Retrieving primary keys for 'group_3' [type = TABLE]
+[08 Dec 2016 19:02:07]   Found primary key column: oid
+[08 Dec 2016 19:02:07] Retrieving columns for 'group_module_3' [type = TABLE]
+[08 Dec 2016 19:02:07]   Found column: group_3_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[08 Dec 2016 19:02:07]   Found column: module_3_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[08 Dec 2016 19:02:07] Retrieving primary keys for 'group_module_3' [type = TABLE]
+[08 Dec 2016 19:02:07]   Found primary key column: group_3_oid
+[08 Dec 2016 19:02:07]   Found primary key column: module_3_oid
+[08 Dec 2016 19:02:07] Retrieving columns for 'module_3' [type = TABLE]
+[08 Dec 2016 19:02:08]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[08 Dec 2016 19:02:08]   Found column: module_id [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[08 Dec 2016 19:02:08]   Found column: module_name [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[08 Dec 2016 19:02:08] Retrieving primary keys for 'module_3' [type = TABLE]
+[08 Dec 2016 19:02:08]   Found primary key column: oid
+[08 Dec 2016 19:02:08] Retrieving columns for 'servicerequest_2' [type = TABLE]
+[08 Dec 2016 19:02:08]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[08 Dec 2016 19:02:08]   Found column: description [type = LONGTEXT][SQL/XOPEN type = -1][size = 2147483647][dec. digits = 0]
+[08 Dec 2016 19:02:08]   Found column: location [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[08 Dec 2016 19:02:08]   Found column: photo [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[08 Dec 2016 19:02:08]   Found column: photoblob [type = LONGBLOB][SQL/XOPEN type = -4][size = 2147483647][dec. digits = 0]
+[08 Dec 2016 19:02:08]   Found column: time_added [type = DATETIME][SQL/XOPEN type = 93][size = 19][dec. digits = 0]
+[08 Dec 2016 19:02:08]   Found column: status [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[08 Dec 2016 19:02:08]   Found column: user_3_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[08 Dec 2016 19:02:08] Retrieving primary keys for 'servicerequest_2' [type = TABLE]
+[08 Dec 2016 19:02:08]   Found primary key column: oid
+[08 Dec 2016 19:02:08] Retrieving columns for 'user_3' [type = TABLE]
+[08 Dec 2016 19:02:09]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[08 Dec 2016 19:02:09]   Found column: username [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[08 Dec 2016 19:02:09]   Found column: password [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[08 Dec 2016 19:02:09]   Found column: email [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[08 Dec 2016 19:02:09]   Found column: group_3_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[08 Dec 2016 19:02:09] Retrieving primary keys for 'user_3' [type = TABLE]
+[08 Dec 2016 19:02:09]   Found primary key column: oid
+[08 Dec 2016 19:02:09] Retrieving columns for 'user_group_3' [type = TABLE]
+[08 Dec 2016 19:02:09]   Found column: user_3_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[08 Dec 2016 19:02:09]   Found column: group_3_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[08 Dec 2016 19:02:09] Retrieving primary keys for 'user_group_3' [type = TABLE]
+[08 Dec 2016 19:02:09]   Found primary key column: user_3_oid
+[08 Dec 2016 19:02:09]   Found primary key column: group_3_oid
+[08 Dec 2016 19:02:09] Database metadata retrieved (2742 ms)
+[08 Dec 2016 19:02:09] Retrieving auto-increment columns for 'group_3' [type = TABLE]
+[08 Dec 2016 19:02:09] Retrieving auto-increment columns for 'group_module_3' [type = TABLE]
+[08 Dec 2016 19:02:09] Retrieving auto-increment columns for 'module_3' [type = TABLE]
+[08 Dec 2016 19:02:09] Retrieving auto-increment columns for 'servicerequest_2' [type = TABLE]
+[08 Dec 2016 19:02:10] Retrieving auto-increment columns for 'user_3' [type = TABLE]
+[08 Dec 2016 19:02:10] Retrieving auto-increment columns for 'user_group_3' [type = TABLE]
+[08 Dec 2016 19:02:10] Database connection closed

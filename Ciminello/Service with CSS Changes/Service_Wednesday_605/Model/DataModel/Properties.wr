@@ -56,7 +56,8 @@
       <Attribute id="pkg1#ent8#att1" name="Status" type="string" db:column="status"/>
     </Entity>
   </Package>
-  <db:Database id="db3" name="DBservice" type="MySQL" url="jdbc:mysql://52.213.178.53:3306/freeapp24" cryptedPassword="true" password="RjI3QTZBODY=" username="freeapp24"/>
+  <db:Database id="db3" name="DBservice" type="MySQL" url="jdbc:mysql://52.213.178.53:3306/freeapp35" cryptedPassword="true" username="freeapp35" password="M0IxMTI1Mjg=">
+  </db:Database>
   <Relationship id="rel1" name="User_ServiceRequest" sourceEntity="User" targetEntity="pkg1#ent8" db:database="db3" db:table="servicerequest_2">
     <RelationshipRole1 id="rel1#role1" name="UserToServiceRequest" maxCard="N">
       <db:JoinColumn attribute="userOID" name="user_3_oid"/>

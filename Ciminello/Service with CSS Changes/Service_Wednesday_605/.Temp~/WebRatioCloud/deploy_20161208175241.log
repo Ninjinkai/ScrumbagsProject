@@ -1,0 +1,10 @@
+[2016-12-08 17:52:41] Uploading application on server [52.212.3.131]
+[2016-12-08 17:52:42] Computing changes...
+[2016-12-08 17:52:44] Found 2 file(s) changed
+[2016-12-08 17:52:44] --------------------------------------------
+[2016-12-08 17:52:44] UPDATE          RESTART /WEB-INF/lib/com.webratio.struts.jar
+[2016-12-08 17:52:44] UPDATE          RESTART /WEB-INF/classes/datamodel.xml
+[2016-12-08 17:52:44] --------------------------------------------
+[2016-12-08 17:52:44] Stopping application server
+[2016-12-08 17:52:56] Uploading changes (367.1 KB)
+[2016-12-08 17:52:57] Starting application server
